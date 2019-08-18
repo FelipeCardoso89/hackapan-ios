@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F2218C9B16747E86E6BAAA /* Pods_hackapanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B688946718405F33EAAE266 /* Pods_hackapanTests.framework */; };
+		151746822308B76D00CC6511 /* SinespService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746812308B76D00CC6511 /* SinespService.swift */; };
+		151746852308B7EA00CC6511 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746842308B7EA00CC6511 /* Vehicle.swift */; };
+		1517468E2308CD5500CC6511 /* MoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1517468D2308CD5500CC6511 /* MoneyView.swift */; };
+		151746902308CD6500CC6511 /* MoneyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1517468F2308CD6500CC6511 /* MoneyView.xib */; };
+		151746922308CD7900CC6511 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746912308CD7900CC6511 /* CarView.swift */; };
+		151746962308CD9A00CC6511 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151746952308CD9A00CC6511 /* ProfileView.xib */; };
+		151746982308CDA600CC6511 /* CarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151746972308CDA600CC6511 /* CarView.xib */; };
+		1517469A2308CDDC00CC6511 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746992308CDDC00CC6511 /* ProfileView.swift */; };
+		15E993852308A55F00E4AA37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E993842308A55F00E4AA37 /* AppDelegate.swift */; };
+		15E993872308A55F00E4AA37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E993862308A55F00E4AA37 /* ViewController.swift */; };
+		15E9938A2308A55F00E4AA37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E993882308A55F00E4AA37 /* Main.storyboard */; };
+		15E9938C2308A56000E4AA37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E9938B2308A56000E4AA37 /* Assets.xcassets */; };
+		15E9938F2308A56000E4AA37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E9938D2308A56000E4AA37 /* LaunchScreen.storyboard */; };
+		15E9939A2308A56100E4AA37 /* hackapanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E993992308A56100E4AA37 /* hackapanTests.swift */; };
+		15E993A52308A56100E4AA37 /* hackapanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E993A42308A56100E4AA37 /* hackapanUITests.swift */; };
+		187D5BFD07287E840FD6E6E0 /* Pods_hackapan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81C76FF92E70063ECD29F17 /* Pods_hackapan.framework */; };
+		F31110A822EF97AEF0C06C61 /* Pods_hackapanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841702539D2A3548B0BF818A /* Pods_hackapanUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15E993962308A56100E4AA37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15E993792308A55F00E4AA37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E993802308A55F00E4AA37;
+			remoteInfo = hackapan;
+		};
+		15E993A12308A56100E4AA37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15E993792308A55F00E4AA37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E993802308A55F00E4AA37;
+			remoteInfo = hackapan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AE7CDD370F316E5D1D297D6 /* Pods-hackapanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackapanTests.debug.xcconfig"; path = "Target Support Files/Pods-hackapanTests/Pods-hackapanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B688946718405F33EAAE266 /* Pods_hackapanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackapanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		151746812308B76D00CC6511 /* SinespService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinespService.swift; sourceTree = "<group>"; };
+		151746842308B7EA00CC6511 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		1517468D2308CD5500CC6511 /* MoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyView.swift; sourceTree = "<group>"; };
+		1517468F2308CD6500CC6511 /* MoneyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyView.xib; sourceTree = "<group>"; };
+		151746912308CD7900CC6511 /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
+		151746952308CD9A00CC6511 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		151746972308CDA600CC6511 /* CarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarView.xib; sourceTree = "<group>"; };
+		151746992308CDDC00CC6511 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		15E993812308A55F00E4AA37 /* hackapan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackapan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E993842308A55F00E4AA37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15E993862308A55F00E4AA37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15E993892308A55F00E4AA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15E9938B2308A56000E4AA37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15E9938E2308A56000E4AA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15E993902308A56000E4AA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E993952308A56100E4AA37 /* hackapanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackapanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E993992308A56100E4AA37 /* hackapanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackapanTests.swift; sourceTree = "<group>"; };
+		15E9939B2308A56100E4AA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E993A02308A56100E4AA37 /* hackapanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackapanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E993A42308A56100E4AA37 /* hackapanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackapanUITests.swift; sourceTree = "<group>"; };
+		15E993A62308A56100E4AA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6077E251A01A2122A13BFE9F /* Pods-hackapanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackapanUITests.release.xcconfig"; path = "Target Support Files/Pods-hackapanUITests/Pods-hackapanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		70BA1BB35BB5B7078C7CA14A /* Pods-hackapanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackapanUITests.debug.xcconfig"; path = "Target Support Files/Pods-hackapanUITests/Pods-hackapanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		841702539D2A3548B0BF818A /* Pods_hackapanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackapanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F1D5BD89A0E44FDEA79A6E /* Pods-hackapan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackapan.release.xcconfig"; path = "Target Support Files/Pods-hackapan/Pods-hackapan.release.xcconfig"; sourceTree = "<group>"; };
+		A81C76FF92E70063ECD29F17 /* Pods_hackapan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackapan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90E92EDBDB1301CFB00B7D6 /* Pods-hackapan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackapan.debug.xcconfig"; path = "Target Support Files/Pods-hackapan/Pods-hackapan.debug.xcconfig"; sourceTree = "<group>"; };
+		EF868B8D85CBF6A04AE856BB /* Pods-hackapanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackapanTests.release.xcconfig"; path = "Target Support Files/Pods-hackapanTests/Pods-hackapanTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15E9937E2308A55F00E4AA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187D5BFD07287E840FD6E6E0 /* Pods_hackapan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E993922308A56100E4AA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F2218C9B16747E86E6BAAA /* Pods_hackapanTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E9939D2308A56100E4AA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31110A822EF97AEF0C06C61 /* Pods_hackapanUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C07A188E37B21D03CEDA7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A81C76FF92E70063ECD29F17 /* Pods_hackapan.framework */,
+				0B688946718405F33EAAE266 /* Pods_hackapanTests.framework */,
+				841702539D2A3548B0BF818A /* Pods_hackapanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		151746832308B7BE00CC6511 /* Sinesp */ = {
+			isa = PBXGroup;
+			children = (
+				151746812308B76D00CC6511 /* SinespService.swift */,
+				151746842308B7EA00CC6511 /* Vehicle.swift */,
+			);
+			path = Sinesp;
+			sourceTree = "<group>";
+		};
+		151746862308CC9B00CC6511 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				151746892308CCCB00CC6511 /* ProfileView */,
+				151746882308CCBB00CC6511 /* CarView */,
+				151746872308CCAB00CC6511 /* MoneyView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		151746872308CCAB00CC6511 /* MoneyView */ = {
+			isa = PBXGroup;
+			children = (
+				1517468D2308CD5500CC6511 /* MoneyView.swift */,
+				1517468F2308CD6500CC6511 /* MoneyView.xib */,
+			);
+			path = MoneyView;
+			sourceTree = "<group>";
+		};
+		151746882308CCBB00CC6511 /* CarView */ = {
+			isa = PBXGroup;
+			children = (
+				151746912308CD7900CC6511 /* CarView.swift */,
+				151746972308CDA600CC6511 /* CarView.xib */,
+			);
+			path = CarView;
+			sourceTree = "<group>";
+		};
+		151746892308CCCB00CC6511 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				151746952308CD9A00CC6511 /* ProfileView.xib */,
+				151746992308CDDC00CC6511 /* ProfileView.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		15E993782308A55F00E4AA37 = {
+			isa = PBXGroup;
+			children = (
+				15E993832308A55F00E4AA37 /* hackapan */,
+				15E993982308A56100E4AA37 /* hackapanTests */,
+				15E993A32308A56100E4AA37 /* hackapanUITests */,
+				15E993822308A55F00E4AA37 /* Products */,
+				422C12FB4446BDBD9F136FA3 /* Pods */,
+				03C07A188E37B21D03CEDA7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15E993822308A55F00E4AA37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15E993812308A55F00E4AA37 /* hackapan.app */,
+				15E993952308A56100E4AA37 /* hackapanTests.xctest */,
+				15E993A02308A56100E4AA37 /* hackapanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15E993832308A55F00E4AA37 /* hackapan */ = {
+			isa = PBXGroup;
+			children = (
+				151746862308CC9B00CC6511 /* Views */,
+				151746832308B7BE00CC6511 /* Sinesp */,
+				15E993842308A55F00E4AA37 /* AppDelegate.swift */,
+				15E993862308A55F00E4AA37 /* ViewController.swift */,
+				15E993882308A55F00E4AA37 /* Main.storyboard */,
+				15E9938B2308A56000E4AA37 /* Assets.xcassets */,
+				15E9938D2308A56000E4AA37 /* LaunchScreen.storyboard */,
+				15E993902308A56000E4AA37 /* Info.plist */,
+			);
+			path = hackapan;
+			sourceTree = "<group>";
+		};
+		15E993982308A56100E4AA37 /* hackapanTests */ = {
+			isa = PBXGroup;
+			children = (
+				15E993992308A56100E4AA37 /* hackapanTests.swift */,
+				15E9939B2308A56100E4AA37 /* Info.plist */,
+			);
+			path = hackapanTests;
+			sourceTree = "<group>";
+		};
+		15E993A32308A56100E4AA37 /* hackapanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15E993A42308A56100E4AA37 /* hackapanUITests.swift */,
+				15E993A62308A56100E4AA37 /* Info.plist */,
+			);
+			path = hackapanUITests;
+			sourceTree = "<group>";
+		};
+		422C12FB4446BDBD9F136FA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B90E92EDBDB1301CFB00B7D6 /* Pods-hackapan.debug.xcconfig */,
+				85F1D5BD89A0E44FDEA79A6E /* Pods-hackapan.release.xcconfig */,
+				0AE7CDD370F316E5D1D297D6 /* Pods-hackapanTests.debug.xcconfig */,
+				EF868B8D85CBF6A04AE856BB /* Pods-hackapanTests.release.xcconfig */,
+				70BA1BB35BB5B7078C7CA14A /* Pods-hackapanUITests.debug.xcconfig */,
+				6077E251A01A2122A13BFE9F /* Pods-hackapanUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15E993802308A55F00E4AA37 /* hackapan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E993A92308A56100E4AA37 /* Build configuration list for PBXNativeTarget "hackapan" */;
+			buildPhases = (
+				E6C6472F6AE71A834E36341C /* [CP] Check Pods Manifest.lock */,
+				15E9937D2308A55F00E4AA37 /* Sources */,
+				15E9937E2308A55F00E4AA37 /* Frameworks */,
+				15E9937F2308A55F00E4AA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hackapan;
+			productName = hackapan;
+			productReference = 15E993812308A55F00E4AA37 /* hackapan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15E993942308A56100E4AA37 /* hackapanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E993AC2308A56100E4AA37 /* Build configuration list for PBXNativeTarget "hackapanTests" */;
+			buildPhases = (
+				39AC84162520DCE381690B41 /* [CP] Check Pods Manifest.lock */,
+				15E993912308A56100E4AA37 /* Sources */,
+				15E993922308A56100E4AA37 /* Frameworks */,
+				15E993932308A56100E4AA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15E993972308A56100E4AA37 /* PBXTargetDependency */,
+			);
+			name = hackapanTests;
+			productName = hackapanTests;
+			productReference = 15E993952308A56100E4AA37 /* hackapanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15E9939F2308A56100E4AA37 /* hackapanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E993AF2308A56100E4AA37 /* Build configuration list for PBXNativeTarget "hackapanUITests" */;
+			buildPhases = (
+				10F2DADC0A7C3F28DB2B852A /* [CP] Check Pods Manifest.lock */,
+				15E9939C2308A56100E4AA37 /* Sources */,
+				15E9939D2308A56100E4AA37 /* Frameworks */,
+				15E9939E2308A56100E4AA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15E993A22308A56100E4AA37 /* PBXTargetDependency */,
+			);
+			name = hackapanUITests;
+			productName = hackapanUITests;
+			productReference = 15E993A02308A56100E4AA37 /* hackapanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15E993792308A55F00E4AA37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Felipe Antonio Cardoso";
+				TargetAttributes = {
+					15E993802308A55F00E4AA37 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					15E993942308A56100E4AA37 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 15E993802308A55F00E4AA37;
+					};
+					15E9939F2308A56100E4AA37 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 15E993802308A55F00E4AA37;
+					};
+				};
+			};
+			buildConfigurationList = 15E9937C2308A55F00E4AA37 /* Build configuration list for PBXProject "hackapan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15E993782308A55F00E4AA37;
+			productRefGroup = 15E993822308A55F00E4AA37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15E993802308A55F00E4AA37 /* hackapan */,
+				15E993942308A56100E4AA37 /* hackapanTests */,
+				15E9939F2308A56100E4AA37 /* hackapanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15E9937F2308A55F00E4AA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E9938F2308A56000E4AA37 /* LaunchScreen.storyboard in Resources */,
+				151746962308CD9A00CC6511 /* ProfileView.xib in Resources */,
+				151746982308CDA600CC6511 /* CarView.xib in Resources */,
+				151746902308CD6500CC6511 /* MoneyView.xib in Resources */,
+				15E9938C2308A56000E4AA37 /* Assets.xcassets in Resources */,
+				15E9938A2308A55F00E4AA37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E993932308A56100E4AA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E9939E2308A56100E4AA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10F2DADC0A7C3F28DB2B852A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hackapanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39AC84162520DCE381690B41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hackapanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C6472F6AE71A834E36341C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hackapan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15E9937D2308A55F00E4AA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1517468E2308CD5500CC6511 /* MoneyView.swift in Sources */,
+				151746852308B7EA00CC6511 /* Vehicle.swift in Sources */,
+				151746822308B76D00CC6511 /* SinespService.swift in Sources */,
+				15E993872308A55F00E4AA37 /* ViewController.swift in Sources */,
+				15E993852308A55F00E4AA37 /* AppDelegate.swift in Sources */,
+				1517469A2308CDDC00CC6511 /* ProfileView.swift in Sources */,
+				151746922308CD7900CC6511 /* CarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E993912308A56100E4AA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E9939A2308A56100E4AA37 /* hackapanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E9939C2308A56100E4AA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E993A52308A56100E4AA37 /* hackapanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15E993972308A56100E4AA37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15E993802308A55F00E4AA37 /* hackapan */;
+			targetProxy = 15E993962308A56100E4AA37 /* PBXContainerItemProxy */;
+		};
+		15E993A22308A56100E4AA37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15E993802308A55F00E4AA37 /* hackapan */;
+			targetProxy = 15E993A12308A56100E4AA37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15E993882308A55F00E4AA37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E993892308A55F00E4AA37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15E9938D2308A56000E4AA37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E9938E2308A56000E4AA37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15E993A72308A56100E4AA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15E993A82308A56100E4AA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15E993AA2308A56100E4AA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90E92EDBDB1301CFB00B7D6 /* Pods-hackapan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2QHFGTQK;
+				INFOPLIST_FILE = hackapan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = felipeantoniocardoso.hackbancopan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15E993AB2308A56100E4AA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F1D5BD89A0E44FDEA79A6E /* Pods-hackapan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2QHFGTQK;
+				INFOPLIST_FILE = hackapan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = felipeantoniocardoso.hackbancopan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15E993AD2308A56100E4AA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE7CDD370F316E5D1D297D6 /* Pods-hackapanTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6J8HNR5WQ;
+				INFOPLIST_FILE = hackapanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = felipeantoniocardoso.hackapanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackapan.app/hackapan";
+			};
+			name = Debug;
+		};
+		15E993AE2308A56100E4AA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF868B8D85CBF6A04AE856BB /* Pods-hackapanTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6J8HNR5WQ;
+				INFOPLIST_FILE = hackapanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = felipeantoniocardoso.hackapanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackapan.app/hackapan";
+			};
+			name = Release;
+		};
+		15E993B02308A56100E4AA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BA1BB35BB5B7078C7CA14A /* Pods-hackapanUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6J8HNR5WQ;
+				INFOPLIST_FILE = hackapanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = felipeantoniocardoso.hackapanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hackapan;
+			};
+			name = Debug;
+		};
+		15E993B12308A56100E4AA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6077E251A01A2122A13BFE9F /* Pods-hackapanUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6J8HNR5WQ;
+				INFOPLIST_FILE = hackapanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = felipeantoniocardoso.hackapanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hackapan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15E9937C2308A55F00E4AA37 /* Build configuration list for PBXProject "hackapan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E993A72308A56100E4AA37 /* Debug */,
+				15E993A82308A56100E4AA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E993A92308A56100E4AA37 /* Build configuration list for PBXNativeTarget "hackapan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E993AA2308A56100E4AA37 /* Debug */,
+				15E993AB2308A56100E4AA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E993AC2308A56100E4AA37 /* Build configuration list for PBXNativeTarget "hackapanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E993AD2308A56100E4AA37 /* Debug */,
+				15E993AE2308A56100E4AA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E993AF2308A56100E4AA37 /* Build configuration list for PBXNativeTarget "hackapanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E993B02308A56100E4AA37 /* Debug */,
+				15E993B12308A56100E4AA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15E993792308A55F00E4AA37 /* Project object */;
+}

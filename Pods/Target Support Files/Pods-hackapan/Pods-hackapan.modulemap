@@ -1,0 +1,6 @@
+framework module Pods_hackapan {
+  umbrella header "Pods-hackapan-umbrella.h"
+
+  export *
+  module * { export * }
+}

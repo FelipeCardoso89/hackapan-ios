@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-hackapan/Pods-hackapan-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework
+${BUILT_PRODUCTS_DIR}/Arcane/Arcane.framework
+${BUILT_PRODUCTS_DIR}/Regex.swift/Regex_swift.framework
+${BUILT_PRODUCTS_DIR}/sinesp/sinesp.framework
