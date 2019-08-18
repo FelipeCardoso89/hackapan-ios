@@ -268,6 +268,7 @@
 		151746E32308F4F300CC6511 /* SearchCarController */ = {
 			isa = PBXGroup;
 			children = (
+				156575D2230941D200968878 /* VehicleDetailViewController */,
 				156575CF23093F4800968878 /* VehicleListViewController */,
 				156575BE230909E300968878 /* CarListViewController */,
 				156575AE2309082500968878 /* SearchCarDelegate.swift */,
@@ -342,6 +343,13 @@
 				156575D02309400400968878 /* VehicleListViewController.swift */,
 			);
 			path = VehicleListViewController;
+			sourceTree = "<group>";
+		};
+		156575D2230941D200968878 /* VehicleDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VehicleDetailViewController;
 			sourceTree = "<group>";
 		};
 		15E993782308A55F00E4AA37 = {

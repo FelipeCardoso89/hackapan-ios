@@ -2,21 +2,25 @@ PODS:
   - CurrencyText (2.0.4):
     - CurrencyText/Formatter (= 2.0.4)
   - CurrencyText/Formatter (2.0.4)
+  - DKCamera (1.6.4)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - CurrencyText
+  - DKCamera
   - SVProgressHUD
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CurrencyText
+    - DKCamera
     - SVProgressHUD
 
 SPEC CHECKSUMS:
   CurrencyText: 680e011515edb73f238748d87fc4f760bcfb51a6
+  DKCamera: 61fa47629a39354e5111bca1fe96695de020dcb9
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: b49d58ed55833b402fe8a487d6f32f66b79fce07
+PODFILE CHECKSUM: 96f53ac8262af65c8056a6f82e480ac7270595a0
 
 COCOAPODS: 1.7.5

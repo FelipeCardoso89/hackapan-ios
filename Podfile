@@ -10,6 +10,7 @@ target 'hackapan' do
   # Pods for hackapan
   pod 'CurrencyText'
   pod 'SVProgressHUD'
+  pod 'DKCamera'
   
   target 'hackapanTests' do
     inherit! :search_paths

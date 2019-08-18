@@ -48,4 +48,44 @@ class SinespService {
         task.resume()
     }
     
+    
+    func send(imagePath: String, completion: @escaping ((Result<String, NSError>) -> Void)) {
+        // prepare json data
+        let json: [String: Any] = [
+            "language": "pt_BR",
+            "isOverlayRequired": false,
+            "iscreatesearchablepdf": false,
+            "issearchablepdfhidetextlayer": false,
+            "filetype": "jpg",
+            "url": imagePath
+        ]
+        
+        let jsonData = try? JSONSerialization.data(withJSONObject: json)
+        
+        // create post request
+        var request = URLRequest(url: URL(string: "https://server.dsdevelop.com.br/ws/wsrest/sinesp2")!)
+        request.httpMethod = "POST"
+        
+        // insert json data to the request
+        request.httpBody = jsonData
+        request.allHTTPHeaderFields = ["apikey": "helloworld"]
+        
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data, error == nil else {
+                print(error?.localizedDescription ?? "No data")
+                completion(Result.failure(NSError(domain: "", code: 000, userInfo: nil)))
+                return
+            }
+            
+            let responseJSON = try? JSONSerialization.jsonObject(with: data, options: [])
+            if let responseJSON = responseJSON as? [String: Any] {
+                print(responseJSON)
+                completion(Result.success(""))
+            }
+            
+            return
+        }
+        
+        task.resume()
+    }
 }

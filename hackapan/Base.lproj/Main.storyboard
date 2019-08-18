@@ -123,17 +123,17 @@
                     <connections>
                         <outlet property="cancelButton" destination="w0J-o1-ixT" id="DTn-Z1-fIT"/>
                         <outlet property="collectionView" destination="7ex-NJ-Svx" id="8AB-Nw-CrN"/>
-                        <segue destination="Dfy-u0-jnr" kind="show" id="mpp-WK-fey"/>
+                        <segue destination="Dfy-u0-jnr" kind="show" identifier="goToVehicle" id="mpp-WK-fey"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nVX-AU-03S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2724" y="-185.75712143928038"/>
         </scene>
-        <!--View Controller-->
+        <!--Veiculos-->
         <scene sceneID="aFG-Bx-sbm">
             <objects>
-                <viewController id="Dfy-u0-jnr" sceneMemberID="viewController">
+                <viewController id="Dfy-u0-jnr" customClass="VehicleListViewController" customModule="hackapan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0je-Xv-IBc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -168,15 +168,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bi9-VS-1UQ"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Veiculos" id="rYE-0C-BIh"/>
                     <connections>
-                        <segue destination="QiA-FS-mi4" kind="show" id="FSj-kB-IVE"/>
+                        <outlet property="collectionView" destination="q4S-1W-m94" id="Nnw-Zk-SBN"/>
+                        <segue destination="QiA-FS-mi4" kind="show" identifier="goToDetail" id="FSj-kB-IVE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BFR-u6-ZSl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3512.8000000000002" y="-186.65667166416793"/>
         </scene>
-        <!--View Controller-->
+        <!--Buscar Veiculo-->
         <scene sceneID="Zhh-uI-zDO">
             <objects>
                 <viewController id="QiA-FS-mi4" sceneMemberID="viewController">
@@ -186,6 +188,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="MzU-KI-tiL"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Buscar Veiculo" id="gaI-cy-Eow">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="done" id="hiX-UC-sUb"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Muv-QR-twW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -215,7 +220,24 @@
                     <view key="view" contentMode="scaleToFill" id="VZ4-EV-sDx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7G-XU-DgH">
+                                <rect key="frame" x="16" y="72" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="iZc-j6-Juh"/>
+                                </constraints>
+                                <state key="normal" title="Tire uma foto do documento"/>
+                                <connections>
+                                    <action selector="takePhoto:" destination="A3j-f8-rnf" eventType="touchUpInside" id="ZZf-vP-UVH"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="X7G-XU-DgH" firstAttribute="leading" secondItem="ki8-na-ANT" secondAttribute="leading" constant="16" id="45g-AV-Nfs"/>
+                            <constraint firstItem="X7G-XU-DgH" firstAttribute="top" secondItem="ki8-na-ANT" secondAttribute="top" constant="8" id="lYB-Pb-Bhe"/>
+                            <constraint firstItem="ki8-na-ANT" firstAttribute="trailing" secondItem="X7G-XU-DgH" secondAttribute="trailing" constant="16" id="uuC-pF-PtZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ki8-na-ANT"/>
                     </view>
                     <navigationItem key="navigationItem" title="Perfil" id="bUD-1r-NxV">
@@ -227,6 +249,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="cencelButton" destination="xIO-6t-AEM" id="3Uz-Xk-Bgp"/>
+                        <outlet property="photoButton" destination="X7G-XU-DgH" id="EUP-AX-a6s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sJA-Vv-ZAR" userLabel="First Responder" sceneMemberID="firstResponder"/>

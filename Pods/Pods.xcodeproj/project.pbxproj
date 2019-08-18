@@ -7,47 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F62422B6130404060D2F248992EB35 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EE2C26DE0B6121BFF25BC300FFB9735 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41092D5627B6A5590030E1A364A5597 /* UITextField.swift */; };
-		1109AC7D35BF127BF836650FCFBCFEDF /* Pods-hackapan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D7453F61FBED0C0F9323B66CB21CD6 /* Pods-hackapan-dummy.m */; };
-		22A5EAA894AC608A391E783408BA9061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
-		264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4BBCF86B43A510E80CFFF2F534828417 /* SVProgressHUD.bundle */; };
-		28FB1DCB857DDA6529E6773880AEBA82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
-		3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8399515B5748A15407385BF23F66B9 /* SVProgressHUD.m */; };
+		031995BA1C7EA0585F7991F5DE61D75D /* Pods-hackapan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C809015494FDC8FF2D052D85F7288DF2 /* Pods-hackapan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B2E126497D83D4D7901E41121F22F07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D77716312F93D1A825F2088F6FE0845 /* Foundation.framework */; };
+		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC0E0176418F0897D476962CEE3516D /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE2C26DE0B6121BFF25BC300FFB9735 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4806184A054E988CC1D91DB4C7A7934 /* UITextField.swift */; };
+		21D4FD00ACD6550C46DE4C59D5C46962 /* DKCameraLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDEF796BB78416F3DA01E1CB13703A /* DKCameraLocationManager.swift */; };
+		22A5EAA894AC608A391E783408BA9061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D77716312F93D1A825F2088F6FE0845 /* Foundation.framework */; };
+		264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0EC602C546AE4C2A15EE2E7CF4C9A860 /* SVProgressHUD.bundle */; };
+		28FB1DCB857DDA6529E6773880AEBA82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D77716312F93D1A825F2088F6FE0845 /* Foundation.framework */; };
+		3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAD3EB693A060C15A86DC09079494E /* SVProgressHUD.m */; };
+		34AA7CA602003A58D87277494E3D350B /* DKCameraResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7449D147A140A35DF1B76956F8F25D1 /* DKCameraResource.swift */; };
 		366C04F7BD0E38D31BD2CF0F7D9F9E76 /* Pods-hackapanUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5C61D3E4C3A586D02E05A62C13C77B /* Pods-hackapanUITests-dummy.m */; };
-		55AC5EAC64261DD418C31943A01EC3BC /* CurrencyLocale.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1157E67D758EFDEA569399433FE99B /* CurrencyLocale.swift */; };
-		6B9B4DEE75ED67ECB24422844D70993E /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E95DC42D054075E5C9DBDF938098D /* Currency.swift */; };
-		8AB181D5CFC5A6E893E4711862BAF0AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
-		8B047A59CF446109A4EDC240BEA0CBCB /* CurrencyText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B0F41C45F29A646520C365E8B472C7 /* CurrencyText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C020B40828CF8A9BEEDDD765B0701DE0 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6193BDF9256B1B2DC71E7CF8BFFB3D /* QuartzCore.framework */; };
-		9EE67AE83786D59ADAE1D5EC6A9D8286 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047CF33AF25E1856CD9E3C2E0B3BB4F8 /* NumberFormatter.swift */; };
-		9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B8699CCC8EC8C6AD5F9EDB7F1074C /* SVProgressHUD-dummy.m */; };
-		B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B459100490E1237A008B90665BC62740 /* SVIndefiniteAnimatedView.m */; };
+		4B4DE4DC5868E10BE81F0668EB777E77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D77716312F93D1A825F2088F6FE0845 /* Foundation.framework */; };
+		4F02EF9F2464289B452A16DE960A94A3 /* DKCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09FB5F571CC2DEF739F3074882D6DF /* DKCamera-dummy.m */; };
+		4FB9A7F2EFD84E6044F65A9888045971 /* Pods-hackapan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D7453F61FBED0C0F9323B66CB21CD6 /* Pods-hackapan-dummy.m */; };
+		5364DFC4743B4AA77C864168FE62BE89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FE94F449522B1584D30633E954A54C /* UIKit.framework */; };
+		55AC5EAC64261DD418C31943A01EC3BC /* CurrencyLocale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5C7476B599278F667FC405D9D8F1A6 /* CurrencyLocale.swift */; };
+		57CBDD8F2C663E878F33669A648C3D6E /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB489575BEC5EC833164419D58943C /* DKCamera.swift */; };
+		6B9B4DEE75ED67ECB24422844D70993E /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55107007D8D3EB5DE9530CFE4CA4D8E /* Currency.swift */; };
+		7566634CEC0953EE991E5396FE1FCEB4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D25D728ABA14C8F46B264190319C31 /* AVFoundation.framework */; };
+		865514B88BC962B15DE7B91C6E298A2B /* DKCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBF769560680EC5FEAF2506A349450D /* DKCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B047A59CF446109A4EDC240BEA0CBCB /* CurrencyText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6ED34C6F039F511D83AD356279A5B3 /* CurrencyText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED53E76D5FC82FB4DC09D0A70B6F12E8 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5141BAC5C9041E45016705BE61BD609 /* QuartzCore.framework */; };
+		9EE67AE83786D59ADAE1D5EC6A9D8286 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F051AC0A279D2B613E134BDE188C /* NumberFormatter.swift */; };
+		9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A4569912F7C3F76ED95E0819D1C89C /* SVProgressHUD-dummy.m */; };
+		B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3918CBC5AD0DB476E01B889BF5132 /* SVIndefiniteAnimatedView.m */; };
 		BA9CAD6E88CC040C83794AF5386AC692 /* Pods-hackapanTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A712B43911A16E0D4E7558334BB6552 /* Pods-hackapanTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE14849F11827FE06B5E4BC759262E33 /* Pods-hackapan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C809015494FDC8FF2D052D85F7288DF2 /* Pods-hackapan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C86E6AF483B04E78A7030123F22A36EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
+		C1C5FB3A28FAC1CD3D1B9CE709867AF2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCB7828717FD9219BD354995715D8A4 /* CoreMotion.framework */; };
+		C86E6AF483B04E78A7030123F22A36EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D77716312F93D1A825F2088F6FE0845 /* Foundation.framework */; };
 		CF9DA5D68CB60BF1AD77D65AF5A6FC72 /* Pods-hackapanUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C9942116C3FABC14ED8CBD28639296 /* Pods-hackapanUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBACFAABCBF8D80292C803C37749D7D /* SVRadialGradientLayer.m */; };
-		D4914107FF5A197B9D0BC6D1C089E33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
-		D6E0A7859CC652D27E9AB7E044C953F9 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F301B7BAD41BD28D74B2099DD448B /* CurrencyFormatter.swift */; };
-		D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DB51E5CE59CD317F5E9F2CB84EC051 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E62AD4533178BA0A0D065DE9E8DE9F48 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC829CEA75095D3B434CB097418A105C /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC1C31216B337E1EAEC08D904E2BC99 /* SVProgressAnimatedView.m */; };
-		F1906D801C96798A77F9B711AF353E09 /* CurrencyText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 642343E36F6B9BB670A5BAD596C5F51D /* CurrencyText-dummy.m */; };
-		F5BCAC320CC96DF2261C15E2EE16CAD9 /* CurrencyUITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D986B998991B68123A0A1C9184C504B /* CurrencyUITextFieldDelegate.swift */; };
-		F6E8230C5570C1C3ECA6CDBD28E7CB28 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCCEC689F55323A4222E6372F9E53CB /* String.swift */; };
+		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6C1BBAB16CF7FB56A49D1074EB4CD /* SVRadialGradientLayer.m */; };
+		D4914107FF5A197B9D0BC6D1C089E33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D77716312F93D1A825F2088F6FE0845 /* Foundation.framework */; };
+		D6E0A7859CC652D27E9AB7E044C953F9 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF8CC40B2A27061802C155F3C924C2 /* CurrencyFormatter.swift */; };
+		D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DB40C20D7943776F3AB00156924D72 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DE887B59FD0C677A272FC451144E42 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE4250D25793ED097CE2C6033BA388A /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAF95A16D634112B847394F7F40E9647 /* DKCameraResource.bundle */; };
+		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FAD27A1EF2F06F97E247ABE2D5A2E31 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 940FAF0CC157BA4B9A933DF7895E3C47 /* SVProgressAnimatedView.m */; };
+		F1906D801C96798A77F9B711AF353E09 /* CurrencyText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37288402B76204D56E698888008D1E4F /* CurrencyText-dummy.m */; };
+		F5BCAC320CC96DF2261C15E2EE16CAD9 /* CurrencyUITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BB70BD07F6DD240E67F9EB504CDBA9 /* CurrencyUITextFieldDelegate.swift */; };
+		F6E8230C5570C1C3ECA6CDBD28E7CB28 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A6BD334020B58BC54F99EBFA61428 /* String.swift */; };
 		FE94867026095383D704D3588EF23EDE /* Pods-hackapanTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F042EE3A6FEFBE78FF105F6EDDFD02 /* Pods-hackapanTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1030A9D2B1C4918D92C03C2B58ED6815 /* PBXContainerItemProxy */ = {
+		14777D4303C8EA07A40938CEC10C40DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4269AD921DFF5B86E3B350C710067618;
-			remoteInfo = CurrencyText;
+			remoteGlobalIDString = 9E6A9737EF2909D1EB8FE2A056F27AF0;
+			remoteInfo = DKCamera;
 		};
 		42FD7A40F97A94E91047AD07C944AECC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -63,80 +73,112 @@
 			remoteGlobalIDString = 20F74AE92673C66EF7E5F28F2A720C4D;
 			remoteInfo = "Pods-hackapan";
 		};
-		CAA95321099A3456054012176D14128E /* PBXContainerItemProxy */ = {
+		A3F0FCDF358FFF96C3EFDF4F936206FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
 			remoteInfo = SVProgressHUD;
 		};
+		B2F910058E8BCD03BBB52B2CBFF92BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4269AD921DFF5B86E3B350C710067618;
+			remoteInfo = CurrencyText;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		042705C8323202CC35CA27C448C056A6 /* Pods-hackapan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hackapan-Info.plist"; sourceTree = "<group>"; };
-		047CF33AF25E1856CD9E3C2E0B3BB4F8 /* NumberFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberFormatter.swift; path = Sources/Formatter/NumberFormatter.swift; sourceTree = "<group>"; };
 		066CC31D5DBB704266B69F01FA296C3B /* Pods-hackapan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hackapan.release.xcconfig"; sourceTree = "<group>"; };
 		0A712B43911A16E0D4E7558334BB6552 /* Pods-hackapanTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hackapanTests-umbrella.h"; sourceTree = "<group>"; };
+		0CBF769560680EC5FEAF2506A349450D /* DKCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-umbrella.h"; sourceTree = "<group>"; };
+		0EC602C546AE4C2A15EE2E7CF4C9A860 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		0FAD27A1EF2F06F97E247ABE2D5A2E31 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		12CDA6259DE906D90013C11F9BF2DB49 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		15F85C778AA3B0E0A1C7E7815BF190DF /* DKCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-prefix.pch"; sourceTree = "<group>"; };
 		16CA7B56ECA2ED5AC95D5FCE459BDD1B /* Pods-hackapanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hackapanTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1799431B492041C58EDCE5D02FAA6537 /* CurrencyText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CurrencyText.modulemap; sourceTree = "<group>"; };
-		17B0F41C45F29A646520C365E8B472C7 /* CurrencyText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CurrencyText-umbrella.h"; sourceTree = "<group>"; };
 		17DC87942E69983D7CFFC39662E7794E /* Pods_hackapanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hackapanUITests.framework; path = "Pods-hackapanUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AA46E1AEDA4201F93CA51E5DC0EB7F0 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		1B1F301B7BAD41BD28D74B2099DD448B /* CurrencyFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrencyFormatter.swift; path = Sources/Formatter/CurrencyFormatter.swift; sourceTree = "<group>"; };
+		1C7AB44759838B4DDA9A08A4295A75DB /* CurrencyText-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CurrencyText-Info.plist"; sourceTree = "<group>"; };
 		1D4D84E9F41C8919D7FE529CF9C3C2C8 /* Pods-hackapanUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hackapanUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1D986B998991B68123A0A1C9184C504B /* CurrencyUITextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrencyUITextFieldDelegate.swift; path = Sources/TextField/CurrencyUITextFieldDelegate.swift; sourceTree = "<group>"; };
-		1E6E95DC42D054075E5C9DBDF938098D /* Currency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Currency.swift; path = Sources/Formatter/Currency.swift; sourceTree = "<group>"; };
 		2161FE56C2A38E3AF165EDBE1B3F9196 /* Pods-hackapanTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hackapanTests-Info.plist"; sourceTree = "<group>"; };
+		246F9444B83D542781DE72E33372C8F5 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		26C9942116C3FABC14ED8CBD28639296 /* Pods-hackapanUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hackapanUITests-umbrella.h"; sourceTree = "<group>"; };
 		2B009E711A395902ABBC62A3A578A073 /* Pods-hackapanUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hackapanUITests-Info.plist"; sourceTree = "<group>"; };
+		2B905478B0D4D8D83A3EF2C8A6019562 /* CurrencyText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CurrencyText.modulemap; sourceTree = "<group>"; };
+		2CCDEF796BB78416F3DA01E1CB13703A /* DKCameraLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCameraLocationManager.swift; path = DKCamera/DKCameraLocationManager.swift; sourceTree = "<group>"; };
 		34F042EE3A6FEFBE78FF105F6EDDFD02 /* Pods-hackapanTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hackapanTests-dummy.m"; sourceTree = "<group>"; };
-		366B8699CCC8EC8C6AD5F9EDB7F1074C /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		43F62422B6130404060D2F248992EB35 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		37288402B76204D56E698888008D1E4F /* CurrencyText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CurrencyText-dummy.m"; sourceTree = "<group>"; };
+		3A5BF91E42E8C695784483088B724B89 /* CurrencyText.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CurrencyText.xcconfig; sourceTree = "<group>"; };
+		41FE94F449522B1584D30633E954A54C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		44DB40C20D7943776F3AB00156924D72 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		48D1A6ADAB125B813A35AF043F45415B /* Pods_hackapan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hackapan.framework; path = "Pods-hackapan.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6ED34C6F039F511D83AD356279A5B3 /* CurrencyText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CurrencyText-umbrella.h"; sourceTree = "<group>"; };
 		4AC207EDC3B04C325499E0DCA674C488 /* Pods-hackapan-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hackapan-acknowledgements.plist"; sourceTree = "<group>"; };
-		4BBCF86B43A510E80CFFF2F534828417 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		4B5C7476B599278F667FC405D9D8F1A6 /* CurrencyLocale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrencyLocale.swift; path = Sources/Formatter/CurrencyLocale.swift; sourceTree = "<group>"; };
+		4DC0E0176418F0897D476962CEE3516D /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		52EBF1354DF87BC9B0618CE495AE6B8A /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		5C23C364B06FF177B44A70149F6A1934 /* Pods-hackapan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hackapan.modulemap"; sourceTree = "<group>"; };
-		5CCCEC689F55323A4222E6372F9E53CB /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/Formatter/String.swift; sourceTree = "<group>"; };
+		5D77716312F93D1A825F2088F6FE0845 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		631E709AABDD7B497EE5A15909E00A85 /* Pods-hackapanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hackapanUITests.release.xcconfig"; sourceTree = "<group>"; };
 		63B8DDE0412EEDC3EDA9D81BC42EC8A9 /* Pods_hackapanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hackapanTests.framework; path = "Pods-hackapanTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		642343E36F6B9BB670A5BAD596C5F51D /* CurrencyText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CurrencyText-dummy.m"; sourceTree = "<group>"; };
+		67E6C1BBAB16CF7FB56A49D1074EB4CD /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		6A5C61D3E4C3A586D02E05A62C13C77B /* Pods-hackapanUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hackapanUITests-dummy.m"; sourceTree = "<group>"; };
+		6CA3918CBC5AD0DB476E01B889BF5132 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		6F5A6BD334020B58BC54F99EBFA61428 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/Formatter/String.swift; sourceTree = "<group>"; };
 		7030ED9156A61BB12DF1E65887D78134 /* Pods-hackapan-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hackapan-frameworks.sh"; sourceTree = "<group>"; };
 		733CBFCCF834B6610B89B16508353138 /* Pods-hackapanTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hackapanTests.modulemap"; sourceTree = "<group>"; };
 		77D7453F61FBED0C0F9323B66CB21CD6 /* Pods-hackapan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hackapan-dummy.m"; sourceTree = "<group>"; };
-		8B6044AA5D82F2F2B0628AF496D7E078 /* CurrencyText.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CurrencyText.xcconfig; sourceTree = "<group>"; };
-		8DBACFAABCBF8D80292C803C37749D7D /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		7B73D19BFD4E69B62CC576D3A08C0B6A /* DKCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKCamera.xcconfig; sourceTree = "<group>"; };
+		85DE887B59FD0C677A272FC451144E42 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		8A9F4F971BACA124E2C4687595A1D281 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		8F5ED2EB5FF6FF37251AEA582A53BD2B /* DKCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DKCamera.modulemap; sourceTree = "<group>"; };
 		90216DD1C17DF032C4C91200270855DE /* CurrencyText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CurrencyText.framework; path = CurrencyText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92DB51E5CE59CD317F5E9F2CB84EC051 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		940FAF0CC157BA4B9A933DF7895E3C47 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		96EE9F6D4A8955E643679679426FB3E1 /* Pods-hackapanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hackapanTests.release.xcconfig"; sourceTree = "<group>"; };
 		99A20D2879DE11AE6E992F4A45CA5588 /* Pods-hackapanUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hackapanUITests.modulemap"; sourceTree = "<group>"; };
+		9A09FB5F571CC2DEF739F3074882D6DF /* DKCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKCamera-dummy.m"; sourceTree = "<group>"; };
+		9ADAD3EB693A060C15A86DC09079494E /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		9C3F074E922439461E313614CF6E4692 /* Pods-hackapan-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hackapan-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D7E0EAC66312AAE2F22110FBFE87036 /* Pods-hackapanUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hackapanUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FDB489575BEC5EC833164419D58943C /* DKCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCamera.swift; path = DKCamera/DKCamera.swift; sourceTree = "<group>"; };
+		9FF3F051AC0A279D2B613E134BDE188C /* NumberFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberFormatter.swift; path = Sources/Formatter/NumberFormatter.swift; sourceTree = "<group>"; };
 		A2C9BEB34FEC36B2ACCD1C0FB2128B68 /* Pods-hackapanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hackapanUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A76B12E485CD82634970D51DEB280B0F /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		ABEF100935162038E0F150B245B4415C /* Pods-hackapanTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hackapanTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AC8399515B5748A15407385BF23F66B9 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		B41092D5627B6A5590030E1A364A5597 /* UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextField.swift; path = Sources/TextField/UITextField.swift; sourceTree = "<group>"; };
-		B459100490E1237A008B90665BC62740 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		B5C9FCC7A8F1C27C0F044AB47A0064C6 /* Pods-hackapanTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hackapanTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B9BBD42812FA483FE75E7DD9A284ADF1 /* CurrencyText-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CurrencyText-Info.plist"; sourceTree = "<group>"; };
-		C020B40828CF8A9BEEDDD765B0701DE0 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		B9EF8CC40B2A27061802C155F3C924C2 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrencyFormatter.swift; path = Sources/Formatter/CurrencyFormatter.swift; sourceTree = "<group>"; };
+		C1A4569912F7C3F76ED95E0819D1C89C /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		C2D25D728ABA14C8F46B264190319C31 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		C31F8004DE37240D8ACD29D0AC4974E2 /* CurrencyText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CurrencyText-prefix.pch"; sourceTree = "<group>"; };
 		C40E093463EB4F13AE08E4FB2261C022 /* Pods-hackapan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hackapan.debug.xcconfig"; sourceTree = "<group>"; };
+		C4806184A054E988CC1D91DB4C7A7934 /* UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextField.swift; path = Sources/TextField/UITextField.swift; sourceTree = "<group>"; };
 		C809015494FDC8FF2D052D85F7288DF2 /* Pods-hackapan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hackapan-umbrella.h"; sourceTree = "<group>"; };
-		CA9A4D404FC91EA74BB94A021D7A7B39 /* CurrencyText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CurrencyText-prefix.pch"; sourceTree = "<group>"; };
-		CB6193BDF9256B1B2DC71E7CF8BFFB3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		D102F066294D482D5E7E928350A4DA4E /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		DC829CEA75095D3B434CB097418A105C /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		DE1C35F3D5B4A2F5605D76D1E7C798E5 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
-		E62AD4533178BA0A0D065DE9E8DE9F48 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		CA033A3D1AF6D02A993B8BCEE298B0C4 /* DKCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DKCamera.framework; path = DKCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF95A16D634112B847394F7F40E9647 /* DKCameraResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKCameraResource.bundle; path = DKCamera/DKCameraResource.bundle; sourceTree = "<group>"; };
+		CFCB7828717FD9219BD354995715D8A4 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		D2BB70BD07F6DD240E67F9EB504CDBA9 /* CurrencyUITextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrencyUITextFieldDelegate.swift; path = Sources/TextField/CurrencyUITextFieldDelegate.swift; sourceTree = "<group>"; };
+		E636FE0B498204E95FEC709FDDE3E290 /* DKCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DKCamera-Info.plist"; sourceTree = "<group>"; };
+		E7449D147A140A35DF1B76956F8F25D1 /* DKCameraResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCameraResource.swift; path = DKCamera/DKCameraResource.swift; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		ED1157E67D758EFDEA569399433FE99B /* CurrencyLocale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrencyLocale.swift; path = Sources/Formatter/CurrencyLocale.swift; sourceTree = "<group>"; };
-		EDC1C31216B337E1EAEC08D904E2BC99 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		ED53E76D5FC82FB4DC09D0A70B6F12E8 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		F5141BAC5C9041E45016705BE61BD609 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F55107007D8D3EB5DE9530CFE4CA4D8E /* Currency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Currency.swift; path = Sources/Formatter/Currency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		444E02892EBB2DBDA23E5A93D2AABAD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7566634CEC0953EE991E5396FE1FCEB4 /* AVFoundation.framework in Frameworks */,
+				C1C5FB3A28FAC1CD3D1B9CE709867AF2 /* CoreMotion.framework in Frameworks */,
+				0B2E126497D83D4D7901E41121F22F07 /* Foundation.framework in Frameworks */,
+				5364DFC4743B4AA77C864168FE62BE89 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44533ED9E62EF465842844560F026CE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,14 +192,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C86E6AF483B04E78A7030123F22A36EE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7CCC509266378B756855CD6618C1D9BE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AB181D5CFC5A6E893E4711862BAF0AE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,32 +212,94 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4410FCE8F6E58A6585073FBB9DA46FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4DE4DC5868E10BE81F0668EB777E77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		02FABE023920EE443E5B9F4B83C3ABDD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C850C37433B9EAF70AA8EF4EC21FC43 /* iOS */,
+				0EE9F18D39C734DE2BAC8FBF8A206F78 /* CurrencyText */,
+				3AFA6B74248A3337815FE23590E49A7C /* DKCamera */,
+				0DEF4D79EDF5F5B23E782869041F6F73 /* SVProgressHUD */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		21E9A3AF8286A4EDA5002B9202CB947F /* CurrencyText */ = {
+		0DEF4D79EDF5F5B23E782869041F6F73 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				1E6E95DC42D054075E5C9DBDF938098D /* Currency.swift */,
-				1B1F301B7BAD41BD28D74B2099DD448B /* CurrencyFormatter.swift */,
-				ED1157E67D758EFDEA569399433FE99B /* CurrencyLocale.swift */,
-				1D986B998991B68123A0A1C9184C504B /* CurrencyUITextFieldDelegate.swift */,
-				047CF33AF25E1856CD9E3C2E0B3BB4F8 /* NumberFormatter.swift */,
-				5CCCEC689F55323A4222E6372F9E53CB /* String.swift */,
-				B41092D5627B6A5590030E1A364A5597 /* UITextField.swift */,
-				72FAB2C4B0955A128F82C478E8B6288C /* Formatter */,
-				C55825782B4CF094CFDD5A48E0525B86 /* Support Files */,
+				ED53E76D5FC82FB4DC09D0A70B6F12E8 /* SVIndefiniteAnimatedView.h */,
+				6CA3918CBC5AD0DB476E01B889BF5132 /* SVIndefiniteAnimatedView.m */,
+				0FAD27A1EF2F06F97E247ABE2D5A2E31 /* SVProgressAnimatedView.h */,
+				940FAF0CC157BA4B9A933DF7895E3C47 /* SVProgressAnimatedView.m */,
+				4DC0E0176418F0897D476962CEE3516D /* SVProgressHUD.h */,
+				9ADAD3EB693A060C15A86DC09079494E /* SVProgressHUD.m */,
+				44DB40C20D7943776F3AB00156924D72 /* SVRadialGradientLayer.h */,
+				67E6C1BBAB16CF7FB56A49D1074EB4CD /* SVRadialGradientLayer.m */,
+				13150A5388EED80B957EB633CECCFAAA /* Resources */,
+				E58FCF9E041C3926804264B9A1B06DA8 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		0E351BB0862CD22602CCD125215CDBCD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C2D25D728ABA14C8F46B264190319C31 /* AVFoundation.framework */,
+				CFCB7828717FD9219BD354995715D8A4 /* CoreMotion.framework */,
+				5D77716312F93D1A825F2088F6FE0845 /* Foundation.framework */,
+				F5141BAC5C9041E45016705BE61BD609 /* QuartzCore.framework */,
+				41FE94F449522B1584D30633E954A54C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0EE9F18D39C734DE2BAC8FBF8A206F78 /* CurrencyText */ = {
+			isa = PBXGroup;
+			children = (
+				F55107007D8D3EB5DE9530CFE4CA4D8E /* Currency.swift */,
+				B9EF8CC40B2A27061802C155F3C924C2 /* CurrencyFormatter.swift */,
+				4B5C7476B599278F667FC405D9D8F1A6 /* CurrencyLocale.swift */,
+				D2BB70BD07F6DD240E67F9EB504CDBA9 /* CurrencyUITextFieldDelegate.swift */,
+				9FF3F051AC0A279D2B613E134BDE188C /* NumberFormatter.swift */,
+				6F5A6BD334020B58BC54F99EBFA61428 /* String.swift */,
+				C4806184A054E988CC1D91DB4C7A7934 /* UITextField.swift */,
+				342AA1C611695149CC883CEAEF392241 /* Formatter */,
+				E947EA6105969937888826A957D40FCD /* Support Files */,
 			);
 			name = CurrencyText;
 			path = CurrencyText;
+			sourceTree = "<group>";
+		};
+		0FDD0819DC6FBF60CAE827D3C5D1FCD9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F5ED2EB5FF6FF37251AEA582A53BD2B /* DKCamera.modulemap */,
+				7B73D19BFD4E69B62CC576D3A08C0B6A /* DKCamera.xcconfig */,
+				9A09FB5F571CC2DEF739F3074882D6DF /* DKCamera-dummy.m */,
+				E636FE0B498204E95FEC709FDDE3E290 /* DKCamera-Info.plist */,
+				15F85C778AA3B0E0A1C7E7815BF190DF /* DKCamera-prefix.pch */,
+				0CBF769560680EC5FEAF2506A349450D /* DKCamera-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DKCamera";
+			sourceTree = "<group>";
+		};
+		13150A5388EED80B957EB633CECCFAAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0EC602C546AE4C2A15EE2E7CF4C9A860 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2844A68832EA4913F03E3B2D92620EE9 /* Pods-hackapanUITests */ = {
@@ -222,18 +318,32 @@
 			path = "Target Support Files/Pods-hackapanUITests";
 			sourceTree = "<group>";
 		};
-		29B0E9D73A8324E1948E54616E704B4B /* Support Files */ = {
+		2AAD55F6248354B685CD785BF44712E6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DE1C35F3D5B4A2F5605D76D1E7C798E5 /* SVProgressHUD.modulemap */,
-				D102F066294D482D5E7E928350A4DA4E /* SVProgressHUD.xcconfig */,
-				366B8699CCC8EC8C6AD5F9EDB7F1074C /* SVProgressHUD-dummy.m */,
-				A76B12E485CD82634970D51DEB280B0F /* SVProgressHUD-Info.plist */,
-				1AA46E1AEDA4201F93CA51E5DC0EB7F0 /* SVProgressHUD-prefix.pch */,
-				E62AD4533178BA0A0D065DE9E8DE9F48 /* SVProgressHUD-umbrella.h */,
+				CAF95A16D634112B847394F7F40E9647 /* DKCameraResource.bundle */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		342AA1C611695149CC883CEAEF392241 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Formatter;
+			sourceTree = "<group>";
+		};
+		3AFA6B74248A3337815FE23590E49A7C /* DKCamera */ = {
+			isa = PBXGroup;
+			children = (
+				9FDB489575BEC5EC833164419D58943C /* DKCamera.swift */,
+				2CCDEF796BB78416F3DA01E1CB13703A /* DKCameraLocationManager.swift */,
+				E7449D147A140A35DF1B76956F8F25D1 /* DKCameraResource.swift */,
+				2AAD55F6248354B685CD785BF44712E6 /* Resources */,
+				0FDD0819DC6FBF60CAE827D3C5D1FCD9 /* Support Files */,
+			);
+			name = DKCamera;
+			path = DKCamera;
 			sourceTree = "<group>";
 		};
 		3AFF03ACBEFA53DF5367BF81D1B85969 /* Targets Support Files */ = {
@@ -246,92 +356,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		410BCAF3FD04C5073389BDFFE2D2B78E /* Resources */ = {
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4BBCF86B43A510E80CFFF2F534828417 /* SVProgressHUD.bundle */,
+				0E351BB0862CD22602CCD125215CDBCD /* iOS */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		6C850C37433B9EAF70AA8EF4EC21FC43 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */,
-				CB6193BDF9256B1B2DC71E7CF8BFFB3D /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		72FAB2C4B0955A128F82C478E8B6288C /* Formatter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Formatter;
-			sourceTree = "<group>";
-		};
-		BC0C926943B0FDF7F9CF73F79C3C5BA9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				90216DD1C17DF032C4C91200270855DE /* CurrencyText.framework */,
-				48D1A6ADAB125B813A35AF043F45415B /* Pods_hackapan.framework */,
-				63B8DDE0412EEDC3EDA9D81BC42EC8A9 /* Pods_hackapanTests.framework */,
-				17DC87942E69983D7CFFC39662E7794E /* Pods_hackapanUITests.framework */,
-				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C55825782B4CF094CFDD5A48E0525B86 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1799431B492041C58EDCE5D02FAA6537 /* CurrencyText.modulemap */,
-				8B6044AA5D82F2F2B0628AF496D7E078 /* CurrencyText.xcconfig */,
-				642343E36F6B9BB670A5BAD596C5F51D /* CurrencyText-dummy.m */,
-				B9BBD42812FA483FE75E7DD9A284ADF1 /* CurrencyText-Info.plist */,
-				CA9A4D404FC91EA74BB94A021D7A7B39 /* CurrencyText-prefix.pch */,
-				17B0F41C45F29A646520C365E8B472C7 /* CurrencyText-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CurrencyText";
-			sourceTree = "<group>";
-		};
-		CEACCDC73A8A25FA1C63D69842A94654 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				21E9A3AF8286A4EDA5002B9202CB947F /* CurrencyText */,
-				D7ED5F9CF076570B3D891E0EE586DC95 /* SVProgressHUD */,
-			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				CEACCDC73A8A25FA1C63D69842A94654 /* Pods */,
-				BC0C926943B0FDF7F9CF73F79C3C5BA9 /* Products */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				02FABE023920EE443E5B9F4B83C3ABDD /* Pods */,
+				F0C67CFFB8C56FC1FBA6929A2C825475 /* Products */,
 				3AFF03ACBEFA53DF5367BF81D1B85969 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D7ED5F9CF076570B3D891E0EE586DC95 /* SVProgressHUD */ = {
+		E58FCF9E041C3926804264B9A1B06DA8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C020B40828CF8A9BEEDDD765B0701DE0 /* SVIndefiniteAnimatedView.h */,
-				B459100490E1237A008B90665BC62740 /* SVIndefiniteAnimatedView.m */,
-				DC829CEA75095D3B434CB097418A105C /* SVProgressAnimatedView.h */,
-				EDC1C31216B337E1EAEC08D904E2BC99 /* SVProgressAnimatedView.m */,
-				43F62422B6130404060D2F248992EB35 /* SVProgressHUD.h */,
-				AC8399515B5748A15407385BF23F66B9 /* SVProgressHUD.m */,
-				92DB51E5CE59CD317F5E9F2CB84EC051 /* SVRadialGradientLayer.h */,
-				8DBACFAABCBF8D80292C803C37749D7D /* SVRadialGradientLayer.m */,
-				410BCAF3FD04C5073389BDFFE2D2B78E /* Resources */,
-				29B0E9D73A8324E1948E54616E704B4B /* Support Files */,
+				8A9F4F971BACA124E2C4687595A1D281 /* SVProgressHUD.modulemap */,
+				52EBF1354DF87BC9B0618CE495AE6B8A /* SVProgressHUD.xcconfig */,
+				C1A4569912F7C3F76ED95E0819D1C89C /* SVProgressHUD-dummy.m */,
+				246F9444B83D542781DE72E33372C8F5 /* SVProgressHUD-Info.plist */,
+				12CDA6259DE906D90013C11F9BF2DB49 /* SVProgressHUD-prefix.pch */,
+				85DE887B59FD0C677A272FC451144E42 /* SVProgressHUD-umbrella.h */,
 			);
-			name = SVProgressHUD;
-			path = SVProgressHUD;
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		E7E46BDF735C827181FBCF82995D847B /* Pods-hackapanTests */ = {
@@ -350,6 +405,20 @@
 			path = "Target Support Files/Pods-hackapanTests";
 			sourceTree = "<group>";
 		};
+		E947EA6105969937888826A957D40FCD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B905478B0D4D8D83A3EF2C8A6019562 /* CurrencyText.modulemap */,
+				3A5BF91E42E8C695784483088B724B89 /* CurrencyText.xcconfig */,
+				37288402B76204D56E698888008D1E4F /* CurrencyText-dummy.m */,
+				1C7AB44759838B4DDA9A08A4295A75DB /* CurrencyText-Info.plist */,
+				C31F8004DE37240D8ACD29D0AC4974E2 /* CurrencyText-prefix.pch */,
+				4A6ED34C6F039F511D83AD356279A5B3 /* CurrencyText-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CurrencyText";
+			sourceTree = "<group>";
+		};
 		EA0CA95F3CAD979D268C4A047F3386C2 /* Pods-hackapan */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,6 +434,19 @@
 			);
 			name = "Pods-hackapan";
 			path = "Target Support Files/Pods-hackapan";
+			sourceTree = "<group>";
+		};
+		F0C67CFFB8C56FC1FBA6929A2C825475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90216DD1C17DF032C4C91200270855DE /* CurrencyText.framework */,
+				CA033A3D1AF6D02A993B8BCEE298B0C4 /* DKCamera.framework */,
+				48D1A6ADAB125B813A35AF043F45415B /* Pods_hackapan.framework */,
+				63B8DDE0412EEDC3EDA9D81BC42EC8A9 /* Pods_hackapanTests.framework */,
+				17DC87942E69983D7CFFC39662E7794E /* Pods_hackapanUITests.framework */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,19 +480,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		913ACCC2317F920A449BF263811D7EB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031995BA1C7EA0585F7991F5DE61D75D /* Pods-hackapan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E27B91F0A0F3A69A0BBDF24E56F429 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865514B88BC962B15DE7B91C6E298A2B /* DKCamera-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9660092D63553A267C9193258D6CC69A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA9CAD6E88CC040C83794AF5386AC692 /* Pods-hackapanTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A34829E901496A15EA35F012162DECED /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE14849F11827FE06B5E4BC759262E33 /* Pods-hackapan-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,18 +527,19 @@
 		};
 		20F74AE92673C66EF7E5F28F2A720C4D /* Pods-hackapan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04C3E983E447C8004A1EADE5985E9677 /* Build configuration list for PBXNativeTarget "Pods-hackapan" */;
+			buildConfigurationList = 5B0BC857FC4F383592DD6686D356F940 /* Build configuration list for PBXNativeTarget "Pods-hackapan" */;
 			buildPhases = (
-				A34829E901496A15EA35F012162DECED /* Headers */,
-				0EE6930E0D289D7DDD6F5C7E605574AE /* Sources */,
-				7CCC509266378B756855CD6618C1D9BE /* Frameworks */,
-				5BEEF39BBD8BCF000E615CA79D9A9845 /* Resources */,
+				913ACCC2317F920A449BF263811D7EB7 /* Headers */,
+				6691576A41D9A3B972C1DBB0F2C20208 /* Sources */,
+				E4410FCE8F6E58A6585073FBB9DA46FA /* Frameworks */,
+				8C4FE2E72EC11594872B1F3FBB339954 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				95D921311C97AD8A8344F1F489288A14 /* PBXTargetDependency */,
-				5EF3A984E4B9A6D4E6D60B88A9A72697 /* PBXTargetDependency */,
+				BAC2314BDEB143AB29CCD9BCC5D7C69B /* PBXTargetDependency */,
+				58D2571BE5F09925C80F6513397FC6B8 /* PBXTargetDependency */,
+				8079D49AF4DB193FA1E65D8298ED0DE9 /* PBXTargetDependency */,
 			);
 			name = "Pods-hackapan";
 			productName = "Pods-hackapan";
@@ -492,6 +583,24 @@
 			productReference = 90216DD1C17DF032C4C91200270855DE /* CurrencyText.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		9E6A9737EF2909D1EB8FE2A056F27AF0 /* DKCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F9785E3D82C1DF049787EA48EBAB17 /* Build configuration list for PBXNativeTarget "DKCamera" */;
+			buildPhases = (
+				94E27B91F0A0F3A69A0BBDF24E56F429 /* Headers */,
+				8F0C555DE21402EAA87068FB97239864 /* Sources */,
+				444E02892EBB2DBDA23E5A93D2AABAD9 /* Frameworks */,
+				19FAB054D73CAF0BF30C23426B56FCBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKCamera;
+			productName = DKCamera;
+			productReference = CA033A3D1AF6D02A993B8BCEE298B0C4 /* DKCamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A18C72C5C0774CA1C200BE1E31CB2FD1 /* Pods-hackapanTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7308A82CEE802DD8E677B89EAAD51337 /* Build configuration list for PBXNativeTarget "Pods-hackapanTests" */;
@@ -528,11 +637,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BC0C926943B0FDF7F9CF73F79C3C5BA9 /* Products */;
+			productRefGroup = F0C67CFFB8C56FC1FBA6929A2C825475 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4269AD921DFF5B86E3B350C710067618 /* CurrencyText */,
+				9E6A9737EF2909D1EB8FE2A056F27AF0 /* DKCamera */,
 				20F74AE92673C66EF7E5F28F2A720C4D /* Pods-hackapan */,
 				A18C72C5C0774CA1C200BE1E31CB2FD1 /* Pods-hackapanTests */,
 				3578FAF871734995A5FDD3730D734B91 /* Pods-hackapanUITests */,
@@ -542,6 +652,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		19FAB054D73CAF0BF30C23426B56FCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE4250D25793ED097CE2C6033BA388A /* DKCameraResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3AE45908D5CB6CC1D5A361EE19EB9594 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -550,13 +668,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5AA99DD89C9E517503AA27C4A1671982 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BEEF39BBD8BCF000E615CA79D9A9845 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -578,14 +689,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C4FE2E72EC11594872B1F3FBB339954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0EE6930E0D289D7DDD6F5C7E605574AE /* Sources */ = {
+		6691576A41D9A3B972C1DBB0F2C20208 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1109AC7D35BF127BF836650FCFBCFEDF /* Pods-hackapan-dummy.m in Sources */,
+				4FB9A7F2EFD84E6044F65A9888045971 /* Pods-hackapan-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0C555DE21402EAA87068FB97239864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F02EF9F2464289B452A16DE960A94A3 /* DKCamera-dummy.m in Sources */,
+				57CBDD8F2C663E878F33669A648C3D6E /* DKCamera.swift in Sources */,
+				21D4FD00ACD6550C46DE4C59D5C46962 /* DKCameraLocationManager.swift in Sources */,
+				34AA7CA602003A58D87277494E3D350B /* DKCameraResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,11 +764,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5EF3A984E4B9A6D4E6D60B88A9A72697 /* PBXTargetDependency */ = {
+		58D2571BE5F09925C80F6513397FC6B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = CAA95321099A3456054012176D14128E /* PBXContainerItemProxy */;
+			name = DKCamera;
+			target = 9E6A9737EF2909D1EB8FE2A056F27AF0 /* DKCamera */;
+			targetProxy = 14777D4303C8EA07A40938CEC10C40DA /* PBXContainerItemProxy */;
 		};
 		7F8EE6C10CD62BDF95464331B76DBAEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -647,11 +776,17 @@
 			target = 20F74AE92673C66EF7E5F28F2A720C4D /* Pods-hackapan */;
 			targetProxy = 87E016A9D53AD807C7AA08C0792F1AB1 /* PBXContainerItemProxy */;
 		};
-		95D921311C97AD8A8344F1F489288A14 /* PBXTargetDependency */ = {
+		8079D49AF4DB193FA1E65D8298ED0DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = A3F0FCDF358FFF96C3EFDF4F936206FF /* PBXContainerItemProxy */;
+		};
+		BAC2314BDEB143AB29CCD9BCC5D7C69B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CurrencyText;
 			target = 4269AD921DFF5B86E3B350C710067618 /* CurrencyText */;
-			targetProxy = 1030A9D2B1C4918D92C03C2B58ED6815 /* PBXContainerItemProxy */;
+			targetProxy = B2F910058E8BCD03BBB52B2CBFF92BD0 /* PBXContainerItemProxy */;
 		};
 		EC3A75D27181CF51FEC337AD9D262B23 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -662,6 +797,43 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		4D2BA40BC9C23A874D40E1454A3AE6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40E093463EB4F13AE08E4FB2261C022 /* Pods-hackapan.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hackapan/Pods-hackapan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hackapan/Pods-hackapan.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		518A0831D004098FE20733C3C7D6FD6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 631E709AABDD7B497EE5A15909E00A85 /* Pods-hackapanUITests.release.xcconfig */;
@@ -686,44 +858,6 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-hackapanUITests/Pods-hackapanUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		630BDF2B20215E86D84F073F83023858 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 066CC31D5DBB704266B69F01FA296C3B /* Pods-hackapan.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-hackapan/Pods-hackapan-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-hackapan/Pods-hackapan.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -812,6 +946,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		8D729BE7D3E50E199368FB932F4510A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B73D19BFD4E69B62CC576D3A08C0B6A /* DKCamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DKCamera/DKCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKCamera/DKCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DKCamera/DKCamera.modulemap";
+				PRODUCT_MODULE_NAME = DKCamera;
+				PRODUCT_NAME = DKCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -939,7 +1109,7 @@
 		};
 		996001DAD20CED9D9EFFCC0503E4E0DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D102F066294D482D5E7E928350A4DA4E /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = 52EBF1354DF87BC9B0618CE495AE6B8A /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -975,7 +1145,7 @@
 		};
 		AB556174290E39DE9C082CA03D93CCB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D102F066294D482D5E7E928350A4DA4E /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = 52EBF1354DF87BC9B0618CE495AE6B8A /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1008,46 +1178,9 @@
 			};
 			name = Debug;
 		};
-		AE9BDF614844B197084C4ACF1C719407 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C40E093463EB4F13AE08E4FB2261C022 /* Pods-hackapan.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-hackapan/Pods-hackapan-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-hackapan/Pods-hackapan.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C1C184A2F49238F3A7A7C4CC2C9E5E76 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B6044AA5D82F2F2B0628AF496D7E078 /* CurrencyText.xcconfig */;
+			baseConfigurationReference = 3A5BF91E42E8C695784483088B724B89 /* CurrencyText.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1082,7 +1215,7 @@
 		};
 		C6FC18D3ADDCC618B6A07DCF1A6C1AA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B6044AA5D82F2F2B0628AF496D7E078 /* CurrencyText.xcconfig */;
+			baseConfigurationReference = 3A5BF91E42E8C695784483088B724B89 /* CurrencyText.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1109,6 +1242,44 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4629DB965791D1C9E2D0C498FFC3EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066CC31D5DBB704266B69F01FA296C3B /* Pods-hackapan.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hackapan/Pods-hackapan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hackapan/Pods-hackapan.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1153,23 +1324,67 @@
 			};
 			name = Debug;
 		};
+		E2400FFD8ECAF9153974E842405160E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B73D19BFD4E69B62CC576D3A08C0B6A /* DKCamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DKCamera/DKCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKCamera/DKCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DKCamera/DKCamera.modulemap";
+				PRODUCT_MODULE_NAME = DKCamera;
+				PRODUCT_NAME = DKCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04C3E983E447C8004A1EADE5985E9677 /* Build configuration list for PBXNativeTarget "Pods-hackapan" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE9BDF614844B197084C4ACF1C719407 /* Debug */,
-				630BDF2B20215E86D84F073F83023858 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				916E0404255105F480DC4950B7625F7A /* Debug */,
 				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F9785E3D82C1DF049787EA48EBAB17 /* Build configuration list for PBXNativeTarget "DKCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2400FFD8ECAF9153974E842405160E9 /* Debug */,
+				8D729BE7D3E50E199368FB932F4510A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0BC857FC4F383592DD6686D356F940 /* Build configuration list for PBXNativeTarget "Pods-hackapan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2BA40BC9C23A874D40E1454A3AE6BB /* Debug */,
+				D4629DB965791D1C9E2D0C498FFC3EFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
