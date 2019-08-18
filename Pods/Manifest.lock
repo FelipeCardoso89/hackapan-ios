@@ -1,3 +1,22 @@
-PODFILE CHECKSUM: 1028165c1ee66353057f2114cf867b5690452e87
+PODS:
+  - CurrencyText (2.0.4):
+    - CurrencyText/Formatter (= 2.0.4)
+  - CurrencyText/Formatter (2.0.4)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - CurrencyText
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CurrencyText
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  CurrencyText: 680e011515edb73f238748d87fc4f760bcfb51a6
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: b49d58ed55833b402fe8a487d6f32f66b79fce07
 
 COCOAPODS: 1.7.5

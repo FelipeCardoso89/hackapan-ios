@@ -66,8 +66,8 @@ class MainViewModel {
     
     private var fields: [FormSection] = [
         .money(items: nil),
-        .car(items: nil),
-        .profile(items: nil)
+        .car(items: [Vehicle.fiesta()]),
+        .profile(items: [Profile.default()])
     ]
     
     func numberFields(at section: Int) -> Int {
@@ -78,17 +78,37 @@ class MainViewModel {
         
         let section = fields[indexPath.section]
         
-        guard let items = section.items else {
+        switch section {
+        case .money:
+            return MoneyTableViewCellDTO()
             
-            switch section {
-            case .money:
-                return MoneyTableViewCellDTO()
+        case let .car(items):
+        
+            switch items?[indexPath.row] {
+            case let vehicle as Vehicle:
+                return CarTableViewCellDTO(
+                    title: vehicle.model,
+                    subtitle: "\(vehicle.brand) \(vehicle.yaerModel)",
+                    image: Vehicle.imageForVehicle(id: vehicle.id)
+                )
+            default:
+                return CallToActionTableViewCellDTO(title: section.callToAction)
+            }
+            
+        case let .profile(items):
+            
+            switch items?[indexPath.row] {
+            case let profile as Profile :
+                return ProfileTableViewCellDTO(
+                    title: profile.name,
+                    subtitle: "CPF:\(profile.cpf)\nRG:\(profile.rg)",
+                    image: Profile.imageFor(profile)
+                )
+                
             default:
                 return CallToActionTableViewCellDTO(title: section.callToAction)
             }
         }
-        
-        return items[indexPath.row]
     }
     
     func dtohForHeader(at section: Int) -> Any? {

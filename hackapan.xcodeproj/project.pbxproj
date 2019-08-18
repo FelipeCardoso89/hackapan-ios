@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,6 +29,20 @@
 		151746DE2308EF9000CC6511 /* HomeSectionHeaderViewDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746DD2308EF9000CC6511 /* HomeSectionHeaderViewDTO.swift */; };
 		151746E02308F16400CC6511 /* HomeSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746DF2308F16400CC6511 /* HomeSectionHeaderView.swift */; };
 		151746E22308F17F00CC6511 /* HomeSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151746E12308F17F00CC6511 /* HomeSectionHeaderView.xib */; };
+		156575AA2308FE8000968878 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575A92308FE8000968878 /* String+Extensions.swift */; };
+		156575AD2309028300968878 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575AC2309028300968878 /* CurrencyFormatter.swift */; };
+		156575AF2309082500968878 /* SearchCarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575AE2309082500968878 /* SearchCarDelegate.swift */; };
+		156575B2230908BD00968878 /* ProfileNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575B1230908BD00968878 /* ProfileNavigationViewController.swift */; };
+		156575BA2309093300968878 /* SearchCarNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575B92309093200968878 /* SearchCarNavigationController.swift */; };
+		156575BC2309099C00968878 /* ProfileDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575BB2309099C00968878 /* ProfileDelegate.swift */; };
+		156575C023090A0200968878 /* CarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575BF23090A0200968878 /* CarListViewController.swift */; };
+		156575C32309178700968878 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575C22309178700968878 /* Profile.swift */; };
+		156575C523091B0A00968878 /* ProfileFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575C423091B0A00968878 /* ProfileFormViewController.swift */; };
+		156575C92309220D00968878 /* CarCatalogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575C72309220D00968878 /* CarCatalogCollectionViewCell.swift */; };
+		156575CA2309220D00968878 /* CarCatalogCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156575C82309220D00968878 /* CarCatalogCollectionViewCell.xib */; };
+		156575CC2309221A00968878 /* CarCatalogCollectionViewCellDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575CB2309221A00968878 /* CarCatalogCollectionViewCellDTO.swift */; };
+		156575CE2309250E00968878 /* VehicleBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575CD2309250E00968878 /* VehicleBrand.swift */; };
+		156575D12309400400968878 /* VehicleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156575D02309400400968878 /* VehicleListViewController.swift */; };
 		15E993852308A55F00E4AA37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E993842308A55F00E4AA37 /* AppDelegate.swift */; };
 		15E9938A2308A55F00E4AA37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E993882308A55F00E4AA37 /* Main.storyboard */; };
 		15E9938C2308A56000E4AA37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E9938B2308A56000E4AA37 /* Assets.xcassets */; };
@@ -80,6 +94,20 @@
 		151746DD2308EF9000CC6511 /* HomeSectionHeaderViewDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionHeaderViewDTO.swift; sourceTree = "<group>"; };
 		151746DF2308F16400CC6511 /* HomeSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionHeaderView.swift; sourceTree = "<group>"; };
 		151746E12308F17F00CC6511 /* HomeSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeSectionHeaderView.xib; sourceTree = "<group>"; };
+		156575A92308FE8000968878 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		156575AC2309028300968878 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		156575AE2309082500968878 /* SearchCarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCarDelegate.swift; sourceTree = "<group>"; };
+		156575B1230908BD00968878 /* ProfileNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationViewController.swift; sourceTree = "<group>"; };
+		156575B92309093200968878 /* SearchCarNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCarNavigationController.swift; sourceTree = "<group>"; };
+		156575BB2309099C00968878 /* ProfileDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDelegate.swift; sourceTree = "<group>"; };
+		156575BF23090A0200968878 /* CarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewController.swift; sourceTree = "<group>"; };
+		156575C22309178700968878 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		156575C423091B0A00968878 /* ProfileFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFormViewController.swift; sourceTree = "<group>"; };
+		156575C72309220D00968878 /* CarCatalogCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCatalogCollectionViewCell.swift; sourceTree = "<group>"; };
+		156575C82309220D00968878 /* CarCatalogCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarCatalogCollectionViewCell.xib; sourceTree = "<group>"; };
+		156575CB2309221A00968878 /* CarCatalogCollectionViewCellDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCatalogCollectionViewCellDTO.swift; sourceTree = "<group>"; };
+		156575CD2309250E00968878 /* VehicleBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleBrand.swift; sourceTree = "<group>"; };
+		156575D02309400400968878 /* VehicleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListViewController.swift; sourceTree = "<group>"; };
 		15E993812308A55F00E4AA37 /* hackapan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackapan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E993842308A55F00E4AA37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15E993892308A55F00E4AA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -144,6 +172,7 @@
 			children = (
 				151746812308B76D00CC6511 /* SinespService.swift */,
 				151746842308B7EA00CC6511 /* Vehicle.swift */,
+				156575CD2309250E00968878 /* VehicleBrand.swift */,
 			);
 			path = Sinesp;
 			sourceTree = "<group>";
@@ -159,6 +188,7 @@
 		1517469C2308D98E00CC6511 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				156575C6230921B400968878 /* CarCollectionViewCell */,
 				151746D62308EC0400CC6511 /* CallToActionTableViewCell */,
 				1517469F2308D9B100CC6511 /* MoneyCell */,
 				1517469E2308D9A400CC6511 /* CarCell */,
@@ -238,8 +268,80 @@
 		151746E32308F4F300CC6511 /* SearchCarController */ = {
 			isa = PBXGroup;
 			children = (
+				156575CF23093F4800968878 /* VehicleListViewController */,
+				156575BE230909E300968878 /* CarListViewController */,
+				156575AE2309082500968878 /* SearchCarDelegate.swift */,
+				156575B92309093200968878 /* SearchCarNavigationController.swift */,
 			);
 			path = SearchCarController;
+			sourceTree = "<group>";
+		};
+		156575A82308FE7100968878 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				156575A92308FE8000968878 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		156575AB2309027500968878 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				156575AC2309028300968878 /* CurrencyFormatter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		156575B02309087700968878 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				156575BD230909DA00968878 /* ProfileFormViewController */,
+				156575B1230908BD00968878 /* ProfileNavigationViewController.swift */,
+				156575BB2309099C00968878 /* ProfileDelegate.swift */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		156575BD230909DA00968878 /* ProfileFormViewController */ = {
+			isa = PBXGroup;
+			children = (
+				156575C423091B0A00968878 /* ProfileFormViewController.swift */,
+			);
+			path = ProfileFormViewController;
+			sourceTree = "<group>";
+		};
+		156575BE230909E300968878 /* CarListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				156575BF23090A0200968878 /* CarListViewController.swift */,
+			);
+			path = CarListViewController;
+			sourceTree = "<group>";
+		};
+		156575C12309177400968878 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				156575C22309178700968878 /* Profile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		156575C6230921B400968878 /* CarCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				156575C72309220D00968878 /* CarCatalogCollectionViewCell.swift */,
+				156575C82309220D00968878 /* CarCatalogCollectionViewCell.xib */,
+				156575CB2309221A00968878 /* CarCatalogCollectionViewCellDTO.swift */,
+			);
+			path = CarCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		156575CF23093F4800968878 /* VehicleListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				156575D02309400400968878 /* VehicleListViewController.swift */,
+			);
+			path = VehicleListViewController;
 			sourceTree = "<group>";
 		};
 		15E993782308A55F00E4AA37 = {
@@ -267,7 +369,11 @@
 		15E993832308A55F00E4AA37 /* hackapan */ = {
 			isa = PBXGroup;
 			children = (
+				156575C12309177400968878 /* Models */,
+				156575AB2309027500968878 /* Helpers */,
+				156575A82308FE7100968878 /* Extensions */,
 				151746E32308F4F300CC6511 /* SearchCarController */,
+				156575B02309087700968878 /* ProfileViewController */,
 				151746A82308DB2700CC6511 /* Protocols */,
 				151746A12308DA0B00CC6511 /* MainViewController */,
 				1517469C2308D98E00CC6511 /* Cells */,
@@ -324,6 +430,7 @@
 				15E9937D2308A55F00E4AA37 /* Sources */,
 				15E9937E2308A55F00E4AA37 /* Frameworks */,
 				15E9937F2308A55F00E4AA37 /* Resources */,
+				38F106094AC491F2B59F6165 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -422,6 +529,7 @@
 			files = (
 				15E9938F2308A56000E4AA37 /* LaunchScreen.storyboard in Resources */,
 				15E9938C2308A56000E4AA37 /* Assets.xcassets in Resources */,
+				156575CA2309220D00968878 /* CarCatalogCollectionViewCell.xib in Resources */,
 				151746B22308DC8A00CC6511 /* CarTableViewCell.xib in Resources */,
 				151746AE2308DC6D00CC6511 /* MoneyTableViewCell.xib in Resources */,
 				151746E22308F17F00CC6511 /* HomeSectionHeaderView.xib in Resources */,
@@ -468,6 +576,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38F106094AC491F2B59F6165 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackapan/Pods-hackapan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackapan/Pods-hackapan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hackapan/Pods-hackapan-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		39AC84162520DCE381690B41 /* [CP] Check Pods Manifest.lock */ = {
@@ -524,8 +649,14 @@
 				151746BC2308DDE300CC6511 /* CarTableViewCellDTO.swift in Sources */,
 				151746DE2308EF9000CC6511 /* HomeSectionHeaderViewDTO.swift in Sources */,
 				151746BE2308DE0900CC6511 /* ProfileTableViewCellDTO.swift in Sources */,
+				156575D12309400400968878 /* VehicleListViewController.swift in Sources */,
+				156575CC2309221A00968878 /* CarCatalogCollectionViewCellDTO.swift in Sources */,
 				151746C02308DFD500CC6511 /* ViewConfigurable.swift in Sources */,
+				156575BA2309093300968878 /* SearchCarNavigationController.swift in Sources */,
+				156575AA2308FE8000968878 /* String+Extensions.swift in Sources */,
 				151746DC2308EC0400CC6511 /* CallToActionTableViewCellDTO.swift in Sources */,
+				156575C92309220D00968878 /* CarCatalogCollectionViewCell.swift in Sources */,
+				156575C023090A0200968878 /* CarListViewController.swift in Sources */,
 				151746AA2308DB3B00CC6511 /* Reusable.swift in Sources */,
 				151746DA2308EC0400CC6511 /* CallToActionTableViewCell.swift in Sources */,
 				151746852308B7EA00CC6511 /* Vehicle.swift in Sources */,
@@ -533,10 +664,17 @@
 				151746B52308DC9D00CC6511 /* ProfileTableViewCell.swift in Sources */,
 				151746822308B76D00CC6511 /* SinespService.swift in Sources */,
 				151746AD2308DC6D00CC6511 /* MoneyTableViewCell.swift in Sources */,
+				156575AF2309082500968878 /* SearchCarDelegate.swift in Sources */,
+				156575C32309178700968878 /* Profile.swift in Sources */,
+				156575CE2309250E00968878 /* VehicleBrand.swift in Sources */,
 				151746BA2308DDCA00CC6511 /* MoneyTableViewCellDTO.swift in Sources */,
 				151746E02308F16400CC6511 /* HomeSectionHeaderView.swift in Sources */,
+				156575AD2309028300968878 /* CurrencyFormatter.swift in Sources */,
 				15E993852308A55F00E4AA37 /* AppDelegate.swift in Sources */,
+				156575B2230908BD00968878 /* ProfileNavigationViewController.swift in Sources */,
+				156575C523091B0A00968878 /* ProfileFormViewController.swift in Sources */,
 				151746A32308DA2400CC6511 /* MainViewController.swift in Sources */,
+				156575BC2309099C00968878 /* ProfileDelegate.swift in Sources */,
 				151746A72308DA3F00CC6511 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

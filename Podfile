@@ -8,7 +8,9 @@ target 'hackapan' do
   use_frameworks!
 
   # Pods for hackapan
-
+  pod 'CurrencyText'
+  pod 'SVProgressHUD'
+  
   target 'hackapanTests' do
     inherit! :search_paths
     # Pods for testing

@@ -9,5 +9,7 @@
 import Foundation
 
 struct ProfileTableViewCellDTO {
-    
+    let title: String
+    let subtitle: String
+    let image: String?
 }

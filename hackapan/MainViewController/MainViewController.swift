@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import CurrencyText
 
 class MainViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
     private let viewModel = MainViewModel()
+    private let currencyFormatter = CurrencyFormatter {
+        $0.maxValue = 999999
+        $0.currency = .brazilianReal
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +34,19 @@ class MainViewController: UIViewController {
         tableView.registerCell(of: ProfileTableViewCell.self)
         tableView.registerCell(of: CallToActionTableViewCell.self)
         tableView.registerHeaderFooterView(of: HomeSectionHeaderView.self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+        switch segue.destination {
+        case let vc as SearchCarNavigationController:
+            vc.searchCarDelegate = self
+        case let vc as ProfileNavigationViewController:
+            vc.profileDelegate = self
+        default:
+            return
+        }
+        
     }
 }
 
@@ -69,10 +87,20 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        switch viewModel.dto(at: indexPath) {
+        case _ as CarTableViewCellDTO:
+            self.performSegue(withIdentifier: "goToCar", sender: nil)
+        case _ as ProfileTableViewCellDTO:
+            self.performSegue(withIdentifier: "goToProfile", sender: nil)
+        default:
+            return
+        }
+        
     }
     
     private func table(_ tableView: UITableView, cellAt indexPath: IndexPath, forMoneyTableViewCellWith dto: MoneyTableViewCellDTO) -> MoneyTableViewCell {
         let cell = tableView.dequeueReusableCell(MoneyTableViewCell.self, for: indexPath)
+        cell.textField.delegate = self
         cell.configure(with: dto)
         return cell
     }
@@ -101,6 +129,31 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
         }
         cell.configure(with: dto)
         return cell
+    }
+    
+}
+
+
+extension MainViewController: UITextFieldDelegate {
+
+}
+
+extension MainViewController: SearchCarDelegate {
+    
+    func viewController(viewController: UIViewController, didPick vehicle: Vehicle) {
+        
+    }
+    
+    func dismissViewController(viewController: UIViewController) {
+        viewController.navigationController?.dismiss(animated: true, completion: nil)
+    }
+}
+
+
+extension MainViewController: ProfileDelegate {
+    
+    func viewController(viewController: UIViewController, didPick profile: Profile) {
+        
     }
     
 }

@@ -25,7 +25,10 @@
                             <constraint firstAttribute="height" constant="50" id="9h7-uR-dtX"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                        <textInputTraits key="textInputTraits"/>
+                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="maskString" value="(00) 0 0000-0000"/>
+                        </userDefinedRuntimeAttributes>
                     </textField>
                 </subviews>
                 <constraints>
@@ -36,6 +39,9 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="textField" destination="veu-23-M8c" id="9ZO-Ya-HLO"/>
+            </connections>
             <point key="canvasLocation" x="47.826086956521742" y="36.830357142857139"/>
         </tableViewCell>
     </objects>

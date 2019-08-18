@@ -10,16 +10,50 @@ import Foundation
 
 struct Vehicle {
     let id: Int
-    let situationId: Int
-    let situtation: String
+    let situationId: Int?
+    let situtation: String?
     let model: String
     let brand: String
-    let color: String
-    let year: Int
-    let yaerModel: Int
-    let plate: String
-    let uf: String
-    let city: String
+    let color: String?
+    let year: Int?
+    let yaerModel: Int?
+    let plate: String?
+    let uf: String?
+    let city: String?
+    let price: Int?
+
+    static func imageForVehicle(id: Int) -> String {
+        switch id {
+        case 0:
+            return "fiesta"
+        default:
+            return "car"
+        }
+    }
+    
+    static func ford() -> [Vehicle] {
+        return [
+            Vehicle.focus(),
+            Vehicle.ecoSport(),
+            Vehicle.fiesta()
+        ]
+    }
+    
+    static func chevrolet() -> [Vehicle] {
+        return [
+            Vehicle.camaro(),
+            Vehicle.onix(),
+            Vehicle.prisma()
+        ]
+    }
+    
+    static func wolksvagen() -> [Vehicle] {
+        return [
+            Vehicle.polo(),
+            Vehicle.voyage(),
+            Vehicle.gol()
+        ]
+    }
 }
 
 extension Vehicle: Decodable {
@@ -36,6 +70,7 @@ extension Vehicle: Decodable {
         case plate
         case uf
         case city
+        case price
     }
     
     init(from decoder: Decoder) throws {
@@ -51,6 +86,7 @@ extension Vehicle: Decodable {
         let plate = try container.decode(String.self, forKey: .plate)
         let uf = try container.decode(String.self, forKey: .uf)
         let city = try container.decode(String.self, forKey: .city)
+        let price = try container.decodeIfPresent(Int.self, forKey: .price)
         
         self.init(
             id: id,
@@ -63,7 +99,90 @@ extension Vehicle: Decodable {
             yaerModel: yearModel,
             plate: plate,
             uf: uf,
-            city: city
+            city: city,
+            price: price
         )
     }
+}
+
+
+extension Vehicle {
+    
+    init(id: Int, model: String, brand: String, price: Int?) {
+        self.init(
+            id: id,
+            situationId: nil,
+            situtation: nil,
+            model: model,
+            brand: brand,
+            color: nil,
+            year: nil,
+            yaerModel: nil,
+            plate: nil,
+            uf: nil,
+            city: nil,
+            price: price
+        )
+    }
+    
+    init(id: Int, model: String, brand: String) {
+        self.init(
+            id: id,
+            model: model,
+            brand: brand,
+            price: nil
+        )
+    }
+    
+}
+
+//FORD
+extension Vehicle {
+    
+    static func fiesta() -> Vehicle {
+        return Vehicle(id: 0, model: "Fiesta", brand: "Focus", price: 35000)
+    }
+    
+    static func ecoSport() -> Vehicle {
+        return Vehicle(id: 1, model: "EcoSport", brand: "Ford", price: 30000)
+    }
+    
+    static func focus() -> Vehicle {
+        return Vehicle(id: 2, model: "Focus", brand: "Ford", price: 28000)
+    }
+    
+}
+
+//Chevrolet
+extension Vehicle {
+    
+    static func prisma() -> Vehicle {
+        return Vehicle(id: 3, model: "Prisma", brand: "Chevrolet", price: 20000)
+    }
+    
+    static func onix() -> Vehicle {
+        return Vehicle(id: 4, model: "Onix", brand: "Chevrolet", price: 32000)
+    }
+    
+    static func camaro() -> Vehicle {
+        return Vehicle(id: 5, model: "Camaro", brand: "Chevrolet", price: 300000)
+    }
+    
+}
+
+//Wolksvagen
+extension Vehicle {
+    
+    static func polo() -> Vehicle {
+        return Vehicle(id: 6, model: "Polo", brand: "Wolksvagen", price: 14000)
+    }
+    
+    static func gol() -> Vehicle {
+        return Vehicle(id: 7, model: "Gol", brand: "Wolksvagen", price: 13460)
+    }
+    
+    static func voyage() -> Vehicle {
+        return Vehicle(id: 8, model: "Voyage", brand: "Wolksvagen", price: 23500)
+    }
+    
 }
