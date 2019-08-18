@@ -10,14 +10,26 @@
 		14F2218C9B16747E86E6BAAA /* Pods_hackapanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B688946718405F33EAAE266 /* Pods_hackapanTests.framework */; };
 		151746822308B76D00CC6511 /* SinespService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746812308B76D00CC6511 /* SinespService.swift */; };
 		151746852308B7EA00CC6511 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746842308B7EA00CC6511 /* Vehicle.swift */; };
-		1517468E2308CD5500CC6511 /* MoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1517468D2308CD5500CC6511 /* MoneyView.swift */; };
-		151746902308CD6500CC6511 /* MoneyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1517468F2308CD6500CC6511 /* MoneyView.xib */; };
-		151746922308CD7900CC6511 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746912308CD7900CC6511 /* CarView.swift */; };
-		151746962308CD9A00CC6511 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151746952308CD9A00CC6511 /* ProfileView.xib */; };
-		151746982308CDA600CC6511 /* CarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151746972308CDA600CC6511 /* CarView.xib */; };
-		1517469A2308CDDC00CC6511 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746992308CDDC00CC6511 /* ProfileView.swift */; };
+		151746A32308DA2400CC6511 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746A22308DA2400CC6511 /* MainViewController.swift */; };
+		151746A72308DA3F00CC6511 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746A62308DA3F00CC6511 /* MainViewModel.swift */; };
+		151746AA2308DB3B00CC6511 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746A92308DB3B00CC6511 /* Reusable.swift */; };
+		151746AD2308DC6D00CC6511 /* MoneyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746AB2308DC6D00CC6511 /* MoneyTableViewCell.swift */; };
+		151746AE2308DC6D00CC6511 /* MoneyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151746AC2308DC6D00CC6511 /* MoneyTableViewCell.xib */; };
+		151746B12308DC8A00CC6511 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746AF2308DC8A00CC6511 /* CarTableViewCell.swift */; };
+		151746B22308DC8A00CC6511 /* CarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151746B02308DC8A00CC6511 /* CarTableViewCell.xib */; };
+		151746B52308DC9D00CC6511 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746B32308DC9D00CC6511 /* ProfileTableViewCell.swift */; };
+		151746B62308DC9D00CC6511 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151746B42308DC9D00CC6511 /* ProfileTableViewCell.xib */; };
+		151746BA2308DDCA00CC6511 /* MoneyTableViewCellDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746B92308DDCA00CC6511 /* MoneyTableViewCellDTO.swift */; };
+		151746BC2308DDE300CC6511 /* CarTableViewCellDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746BB2308DDE300CC6511 /* CarTableViewCellDTO.swift */; };
+		151746BE2308DE0900CC6511 /* ProfileTableViewCellDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746BD2308DE0900CC6511 /* ProfileTableViewCellDTO.swift */; };
+		151746C02308DFD500CC6511 /* ViewConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746BF2308DFD500CC6511 /* ViewConfigurable.swift */; };
+		151746DA2308EC0400CC6511 /* CallToActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746D72308EC0400CC6511 /* CallToActionTableViewCell.swift */; };
+		151746DB2308EC0400CC6511 /* CallToActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151746D82308EC0400CC6511 /* CallToActionTableViewCell.xib */; };
+		151746DC2308EC0400CC6511 /* CallToActionTableViewCellDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746D92308EC0400CC6511 /* CallToActionTableViewCellDTO.swift */; };
+		151746DE2308EF9000CC6511 /* HomeSectionHeaderViewDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746DD2308EF9000CC6511 /* HomeSectionHeaderViewDTO.swift */; };
+		151746E02308F16400CC6511 /* HomeSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151746DF2308F16400CC6511 /* HomeSectionHeaderView.swift */; };
+		151746E22308F17F00CC6511 /* HomeSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151746E12308F17F00CC6511 /* HomeSectionHeaderView.xib */; };
 		15E993852308A55F00E4AA37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E993842308A55F00E4AA37 /* AppDelegate.swift */; };
-		15E993872308A55F00E4AA37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E993862308A55F00E4AA37 /* ViewController.swift */; };
 		15E9938A2308A55F00E4AA37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E993882308A55F00E4AA37 /* Main.storyboard */; };
 		15E9938C2308A56000E4AA37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E9938B2308A56000E4AA37 /* Assets.xcassets */; };
 		15E9938F2308A56000E4AA37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E9938D2308A56000E4AA37 /* LaunchScreen.storyboard */; };
@@ -49,15 +61,27 @@
 		0B688946718405F33EAAE266 /* Pods_hackapanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackapanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		151746812308B76D00CC6511 /* SinespService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinespService.swift; sourceTree = "<group>"; };
 		151746842308B7EA00CC6511 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
-		1517468D2308CD5500CC6511 /* MoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyView.swift; sourceTree = "<group>"; };
-		1517468F2308CD6500CC6511 /* MoneyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyView.xib; sourceTree = "<group>"; };
-		151746912308CD7900CC6511 /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
-		151746952308CD9A00CC6511 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
-		151746972308CDA600CC6511 /* CarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarView.xib; sourceTree = "<group>"; };
-		151746992308CDDC00CC6511 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		151746A22308DA2400CC6511 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		151746A62308DA3F00CC6511 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		151746A92308DB3B00CC6511 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		151746AB2308DC6D00CC6511 /* MoneyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTableViewCell.swift; sourceTree = "<group>"; };
+		151746AC2308DC6D00CC6511 /* MoneyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyTableViewCell.xib; sourceTree = "<group>"; };
+		151746AF2308DC8A00CC6511 /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		151746B02308DC8A00CC6511 /* CarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarTableViewCell.xib; sourceTree = "<group>"; };
+		151746B32308DC9D00CC6511 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		151746B42308DC9D00CC6511 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		151746B92308DDCA00CC6511 /* MoneyTableViewCellDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTableViewCellDTO.swift; sourceTree = "<group>"; };
+		151746BB2308DDE300CC6511 /* CarTableViewCellDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCellDTO.swift; sourceTree = "<group>"; };
+		151746BD2308DE0900CC6511 /* ProfileTableViewCellDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCellDTO.swift; sourceTree = "<group>"; };
+		151746BF2308DFD500CC6511 /* ViewConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfigurable.swift; sourceTree = "<group>"; };
+		151746D72308EC0400CC6511 /* CallToActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallToActionTableViewCell.swift; sourceTree = "<group>"; };
+		151746D82308EC0400CC6511 /* CallToActionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallToActionTableViewCell.xib; sourceTree = "<group>"; };
+		151746D92308EC0400CC6511 /* CallToActionTableViewCellDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallToActionTableViewCellDTO.swift; sourceTree = "<group>"; };
+		151746DD2308EF9000CC6511 /* HomeSectionHeaderViewDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionHeaderViewDTO.swift; sourceTree = "<group>"; };
+		151746DF2308F16400CC6511 /* HomeSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionHeaderView.swift; sourceTree = "<group>"; };
+		151746E12308F17F00CC6511 /* HomeSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeSectionHeaderView.xib; sourceTree = "<group>"; };
 		15E993812308A55F00E4AA37 /* hackapan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackapan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E993842308A55F00E4AA37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15E993862308A55F00E4AA37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15E993892308A55F00E4AA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15E9938B2308A56000E4AA37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15E9938E2308A56000E4AA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -124,41 +148,98 @@
 			path = Sinesp;
 			sourceTree = "<group>";
 		};
-		151746862308CC9B00CC6511 /* Views */ = {
+		1517469B2308D98900CC6511 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				151746892308CCCB00CC6511 /* ProfileView */,
-				151746882308CCBB00CC6511 /* CarView */,
-				151746872308CCAB00CC6511 /* MoneyView */,
+				151746A02308D9EE00CC6511 /* HomeSectionHeaderView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		151746872308CCAB00CC6511 /* MoneyView */ = {
+		1517469C2308D98E00CC6511 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				1517468D2308CD5500CC6511 /* MoneyView.swift */,
-				1517468F2308CD6500CC6511 /* MoneyView.xib */,
+				151746D62308EC0400CC6511 /* CallToActionTableViewCell */,
+				1517469F2308D9B100CC6511 /* MoneyCell */,
+				1517469E2308D9A400CC6511 /* CarCell */,
+				1517469D2308D99A00CC6511 /* ProfileCell */,
 			);
-			path = MoneyView;
+			path = Cells;
 			sourceTree = "<group>";
 		};
-		151746882308CCBB00CC6511 /* CarView */ = {
+		1517469D2308D99A00CC6511 /* ProfileCell */ = {
 			isa = PBXGroup;
 			children = (
-				151746912308CD7900CC6511 /* CarView.swift */,
-				151746972308CDA600CC6511 /* CarView.xib */,
+				151746B32308DC9D00CC6511 /* ProfileTableViewCell.swift */,
+				151746B42308DC9D00CC6511 /* ProfileTableViewCell.xib */,
+				151746BD2308DE0900CC6511 /* ProfileTableViewCellDTO.swift */,
 			);
-			path = CarView;
+			path = ProfileCell;
 			sourceTree = "<group>";
 		};
-		151746892308CCCB00CC6511 /* ProfileView */ = {
+		1517469E2308D9A400CC6511 /* CarCell */ = {
 			isa = PBXGroup;
 			children = (
-				151746952308CD9A00CC6511 /* ProfileView.xib */,
-				151746992308CDDC00CC6511 /* ProfileView.swift */,
+				151746AF2308DC8A00CC6511 /* CarTableViewCell.swift */,
+				151746B02308DC8A00CC6511 /* CarTableViewCell.xib */,
+				151746BB2308DDE300CC6511 /* CarTableViewCellDTO.swift */,
 			);
-			path = ProfileView;
+			path = CarCell;
+			sourceTree = "<group>";
+		};
+		1517469F2308D9B100CC6511 /* MoneyCell */ = {
+			isa = PBXGroup;
+			children = (
+				151746AB2308DC6D00CC6511 /* MoneyTableViewCell.swift */,
+				151746AC2308DC6D00CC6511 /* MoneyTableViewCell.xib */,
+				151746B92308DDCA00CC6511 /* MoneyTableViewCellDTO.swift */,
+			);
+			path = MoneyCell;
+			sourceTree = "<group>";
+		};
+		151746A02308D9EE00CC6511 /* HomeSectionHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				151746DD2308EF9000CC6511 /* HomeSectionHeaderViewDTO.swift */,
+				151746DF2308F16400CC6511 /* HomeSectionHeaderView.swift */,
+				151746E12308F17F00CC6511 /* HomeSectionHeaderView.xib */,
+			);
+			path = HomeSectionHeaderView;
+			sourceTree = "<group>";
+		};
+		151746A12308DA0B00CC6511 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				151746A22308DA2400CC6511 /* MainViewController.swift */,
+				151746A62308DA3F00CC6511 /* MainViewModel.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		151746A82308DB2700CC6511 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				151746A92308DB3B00CC6511 /* Reusable.swift */,
+				151746BF2308DFD500CC6511 /* ViewConfigurable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		151746D62308EC0400CC6511 /* CallToActionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				151746D72308EC0400CC6511 /* CallToActionTableViewCell.swift */,
+				151746D82308EC0400CC6511 /* CallToActionTableViewCell.xib */,
+				151746D92308EC0400CC6511 /* CallToActionTableViewCellDTO.swift */,
+			);
+			path = CallToActionTableViewCell;
+			sourceTree = "<group>";
+		};
+		151746E32308F4F300CC6511 /* SearchCarController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchCarController;
 			sourceTree = "<group>";
 		};
 		15E993782308A55F00E4AA37 = {
@@ -186,10 +267,13 @@
 		15E993832308A55F00E4AA37 /* hackapan */ = {
 			isa = PBXGroup;
 			children = (
-				151746862308CC9B00CC6511 /* Views */,
+				151746E32308F4F300CC6511 /* SearchCarController */,
+				151746A82308DB2700CC6511 /* Protocols */,
+				151746A12308DA0B00CC6511 /* MainViewController */,
+				1517469C2308D98E00CC6511 /* Cells */,
+				1517469B2308D98900CC6511 /* Views */,
 				151746832308B7BE00CC6511 /* Sinesp */,
 				15E993842308A55F00E4AA37 /* AppDelegate.swift */,
-				15E993862308A55F00E4AA37 /* ViewController.swift */,
 				15E993882308A55F00E4AA37 /* Main.storyboard */,
 				15E9938B2308A56000E4AA37 /* Assets.xcassets */,
 				15E9938D2308A56000E4AA37 /* LaunchScreen.storyboard */,
@@ -337,11 +421,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				15E9938F2308A56000E4AA37 /* LaunchScreen.storyboard in Resources */,
-				151746962308CD9A00CC6511 /* ProfileView.xib in Resources */,
-				151746982308CDA600CC6511 /* CarView.xib in Resources */,
-				151746902308CD6500CC6511 /* MoneyView.xib in Resources */,
 				15E9938C2308A56000E4AA37 /* Assets.xcassets in Resources */,
+				151746B22308DC8A00CC6511 /* CarTableViewCell.xib in Resources */,
+				151746AE2308DC6D00CC6511 /* MoneyTableViewCell.xib in Resources */,
+				151746E22308F17F00CC6511 /* HomeSectionHeaderView.xib in Resources */,
 				15E9938A2308A55F00E4AA37 /* Main.storyboard in Resources */,
+				151746DB2308EC0400CC6511 /* CallToActionTableViewCell.xib in Resources */,
+				151746B62308DC9D00CC6511 /* ProfileTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,13 +521,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1517468E2308CD5500CC6511 /* MoneyView.swift in Sources */,
+				151746BC2308DDE300CC6511 /* CarTableViewCellDTO.swift in Sources */,
+				151746DE2308EF9000CC6511 /* HomeSectionHeaderViewDTO.swift in Sources */,
+				151746BE2308DE0900CC6511 /* ProfileTableViewCellDTO.swift in Sources */,
+				151746C02308DFD500CC6511 /* ViewConfigurable.swift in Sources */,
+				151746DC2308EC0400CC6511 /* CallToActionTableViewCellDTO.swift in Sources */,
+				151746AA2308DB3B00CC6511 /* Reusable.swift in Sources */,
+				151746DA2308EC0400CC6511 /* CallToActionTableViewCell.swift in Sources */,
 				151746852308B7EA00CC6511 /* Vehicle.swift in Sources */,
+				151746B12308DC8A00CC6511 /* CarTableViewCell.swift in Sources */,
+				151746B52308DC9D00CC6511 /* ProfileTableViewCell.swift in Sources */,
 				151746822308B76D00CC6511 /* SinespService.swift in Sources */,
-				15E993872308A55F00E4AA37 /* ViewController.swift in Sources */,
+				151746AD2308DC6D00CC6511 /* MoneyTableViewCell.swift in Sources */,
+				151746BA2308DDCA00CC6511 /* MoneyTableViewCellDTO.swift in Sources */,
+				151746E02308F16400CC6511 /* HomeSectionHeaderView.swift in Sources */,
 				15E993852308A55F00E4AA37 /* AppDelegate.swift in Sources */,
-				1517469A2308CDDC00CC6511 /* ProfileView.swift in Sources */,
-				151746922308CD7900CC6511 /* CarView.swift in Sources */,
+				151746A32308DA2400CC6511 /* MainViewController.swift in Sources */,
+				151746A72308DA3F00CC6511 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

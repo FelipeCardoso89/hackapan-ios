@@ -10,59 +10,46 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hackapan" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="hackapan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ir-rW-pPR">
-                                <rect key="frame" x="0.0" y="64" width="375" height="495"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3tO-j5-am6">
-                                        <rect key="frame" x="8" y="8" width="359" height="479"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="479" id="r3z-Ox-kLn"/>
-                                        </constraints>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="3tO-j5-am6" firstAttribute="top" secondItem="5Ir-rW-pPR" secondAttribute="top" constant="8" id="Hln-13-btD"/>
-                                    <constraint firstItem="3tO-j5-am6" firstAttribute="leading" secondItem="5Ir-rW-pPR" secondAttribute="leading" constant="8" id="N6Y-ig-wHW"/>
-                                    <constraint firstAttribute="bottom" secondItem="3tO-j5-am6" secondAttribute="bottom" constant="8" id="Qeb-hJ-5fP"/>
-                                    <constraint firstAttribute="trailing" secondItem="3tO-j5-am6" secondAttribute="trailing" constant="8" id="Scj-HH-4Bb"/>
-                                    <constraint firstItem="3tO-j5-am6" firstAttribute="centerX" secondItem="5Ir-rW-pPR" secondAttribute="centerX" id="kA4-bU-m1d"/>
-                                </constraints>
-                            </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDV-1i-zUV">
-                                <rect key="frame" x="16" y="575" width="343" height="60"/>
+                                <rect key="frame" x="16" y="591" width="343" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="mXA-V7-Lla"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Jm6-4M-eVr">
+                                <rect key="frame" x="0.0" y="64" width="375" height="511"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="5Ir-rW-pPR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5Kh-HX-cBd"/>
+                            <constraint firstItem="Jm6-4M-eVr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6yO-qY-9x1"/>
                             <constraint firstItem="lDV-1i-zUV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="6yX-lg-tjU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lDV-1i-zUV" secondAttribute="bottom" constant="32" id="C8w-GD-gGs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lDV-1i-zUV" secondAttribute="bottom" constant="16" id="C8w-GD-gGs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jm6-4M-eVr" secondAttribute="trailing" id="IH6-Wt-alF"/>
+                            <constraint firstItem="Jm6-4M-eVr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IRk-fM-LEo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lDV-1i-zUV" secondAttribute="trailing" constant="16" id="Pu2-0s-A6v"/>
-                            <constraint firstItem="5Ir-rW-pPR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dC2-98-dtR"/>
-                            <constraint firstItem="lDV-1i-zUV" firstAttribute="top" secondItem="5Ir-rW-pPR" secondAttribute="bottom" constant="16" id="fwS-zo-yYk"/>
-                            <constraint firstItem="5Ir-rW-pPR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ooA-OX-Jp4"/>
+                            <constraint firstItem="lDV-1i-zUV" firstAttribute="top" secondItem="Jm6-4M-eVr" secondAttribute="bottom" constant="16" id="tZG-VD-o8c"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="9nG-w5-py9"/>
                     <connections>
+                        <outlet property="tableView" destination="Jm6-4M-eVr" id="GXh-5w-u7G"/>
                         <segue destination="tJC-Ca-MsT" kind="showDetail" id="yzW-Li-y7w"/>
                         <segue destination="MeA-gT-5pJ" kind="showDetail" id="3Zt-i9-8bM"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1063.2" y="157.87106446776613"/>
         </scene>
